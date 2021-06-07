@@ -52,7 +52,7 @@
 <body>
 <div class="container">
     <!-- Online Membership -->
-    <div class="pay_button" onclick="location.href='pay_tool.jsp'">
+    <div class="pay_button" onclick="location.href='order.jsp'">
         <div class="membership">Online Membership</div>
         <div class="charge">\ 200,000<span class="period"> / 1년</span></div>
         <ul class="advantage">
@@ -76,7 +76,7 @@
     </div>
 
     <!-- Offline Membership -->
-    <div class="pay_button" onclick="location.href='pay_tool.jsp'">
+    <div class="pay_button" onclick="location.href='order.jsp'">
         <div class="membership">Offline Membership</div>
         <div class="charge">\ 300,000<span class="period"> / 6개월</span></div>
         <ul class="advantage">

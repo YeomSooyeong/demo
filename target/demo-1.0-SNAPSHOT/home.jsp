@@ -10,9 +10,7 @@
 <head>
     <title>Home</title>
     <style>
-        .basic_info {
-            height: 80px;
-        }
+        .basic_info {height: 80px;}
         .logo {
             position: absolute;
             left: 50%;

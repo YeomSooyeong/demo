@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Package</title>
+    <title>Egg Shell Breakers</title>
     <style>
         .container {
             padding: 100px;
