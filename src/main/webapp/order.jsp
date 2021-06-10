@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Pay tool</title>
+    <title>Order</title>
 </head>
 <body>
 <div style="font-size: 100px;">
