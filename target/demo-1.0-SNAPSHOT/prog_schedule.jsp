@@ -1,16 +1,16 @@
 <%--
   Created by IntelliJ IDEA.
-  User: krgop
-  Date: 2021-06-21 021
-  Time: 21:49
+  User: pky31
+  Date: 2021-06-21
+  Time: 23:35
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>order</title>
+    <title>prog_schedule</title>
 </head>
 <body>
-
+    <h1> 2021 일정 </h1>
 </body>
 </html>
