@@ -12,6 +12,6 @@
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-
+<h1>찾아오시는 길</h1>
 </body>
 </html>
