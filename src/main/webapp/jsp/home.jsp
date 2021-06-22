@@ -8,12 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-
     <title>home</title>
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-
+<img src="images/200x200.png" alt="My Image">
 
 </body>
 </html>

@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="dropHome.css">
+  <link rel="stylesheet" href="../css/dropHome.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
@@ -11,7 +11,7 @@
 <body>
 <!-- logo -->
 <div class="logo">
-  <a href="home.jsp"><img src="Animation.gif"></a>
+  <a href="home.jsp"><img src="../res/Animation.gif"></a>
 </div>
 <!-- logo -->
 <!-- menu -->
@@ -43,12 +43,12 @@
     </div>
   </li>
 
-  <li class="menu_small">
-    <a class="menu_title" href="subscriptions.jsp">구독</a>
+  <li class="menu">
+    <a class="menu_small" href="subscriptions.jsp">구독</a>
   </li>
 
-  <li class="menu_small">
-    <a class="menu_title" href="mypage.jsp">마이페이지</a>
+  <li class="menu">
+    <a class="menu_small" href="mypage.jsp">마이페이지</a>
   </li>
 </ul>
 <!-- menu -->
