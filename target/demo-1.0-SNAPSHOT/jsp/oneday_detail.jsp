@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>oneday_detail</title>
+    <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
 

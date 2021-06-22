@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>order</title>
+    <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
 
