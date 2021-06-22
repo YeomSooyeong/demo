@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>subscriptions</title>
+    <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
 

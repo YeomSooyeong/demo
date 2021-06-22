@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>home_contact</title>
+    <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
 

@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>myclass_rec</title>
+    <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
 
