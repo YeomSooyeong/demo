@@ -13,8 +13,24 @@
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-    <h2>testing res34566778</h2>
-    <img class="img" src="../res/main.jpg" alt="My Image">
+    <section class="home_visual">
+        <p style = "text-align: center">
+            <img class="img" src="../res/main.jpg" alt="My Image">
+        </p>
+    </section>
+    <section class="short_intro">
+        <div class="planeTxt">
+            <p>
+                “건강한 삶”을 위해 신체적, 정신적, 사회적 건강을 돌보고,<br>
+                함께 잘 사는 행복한 사회를 만드는 데 필요한 덕목을 솔선수범할 회원을 모집합니다.
+            </p>
+            <button class="to_sub" >지금 등록하기</button>
+        </div>
+    </section>
+    <section class="home_vod_table">
+
+    </section>
+
 
 </body>
 </html>

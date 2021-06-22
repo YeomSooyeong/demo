@@ -12,6 +12,6 @@
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-
+<h1>원데이클래스 상세</h1>
 </body>
 </html>
