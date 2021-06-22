@@ -10,9 +10,10 @@
 <head>
 
     <title>home</title>
+    <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-    <h2>this page is home, external header below.</h2>
-   <jsp:include page="dropDown.jsp"></jsp:include>
+
+
 </body>
 </html>
