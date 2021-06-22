@@ -12,6 +12,6 @@
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-
+<h1>마이클래스 녹화</h1>
 </body>
 </html>

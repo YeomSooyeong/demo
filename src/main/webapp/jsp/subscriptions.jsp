@@ -12,6 +12,6 @@
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-
+<h1>구독</h1>
 </body>
 </html>
