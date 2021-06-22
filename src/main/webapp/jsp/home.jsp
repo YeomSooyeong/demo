@@ -13,7 +13,7 @@
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-    <h2>testing res</h2>
+    <h2>testing res34566778</h2>
     <img class="img" src="../res/main.jpg" alt="My Image">
 
 </body>
