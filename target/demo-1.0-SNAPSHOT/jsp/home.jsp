@@ -9,10 +9,12 @@
 <html>
 <head>
     <title>home</title>
+    <link rel="stylesheet" href="../css/dropHome.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-<img src="images/200x200.png" alt="My Image">
+
+    <img class="img" src="../res/main.jpg" alt="My Image">
 
 </body>
 </html>

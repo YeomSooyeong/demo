@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="../css/dropHome.css">
+  <link rel="stylesheet" href="../css/dropHome.scss">
   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
