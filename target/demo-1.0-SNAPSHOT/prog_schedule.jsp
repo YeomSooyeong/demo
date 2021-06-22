@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>prog_schedule</title>
+    <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
     <h1> 2021 일정 </h1>

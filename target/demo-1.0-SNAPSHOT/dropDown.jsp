@@ -4,9 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="dropHome.css">
-
   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
-
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
 <body>
@@ -44,11 +43,11 @@
     </div>
   </li>
 
-  <li class="menu">
+  <li class="menu_small">
     <a class="menu_title" href="subscriptions.jsp">구독</a>
   </li>
 
-  <li class="menu">
+  <li class="menu_small">
     <a class="menu_title" href="mypage.jsp">마이페이지</a>
   </li>
 </ul>

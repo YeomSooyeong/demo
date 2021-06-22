@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>stu_info</title>
+    <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
     <h1> 내 정보 </h1>

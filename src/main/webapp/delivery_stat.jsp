@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>delivery_stat</title>
+    <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
     <h1> 책 배송 상태 </h1>

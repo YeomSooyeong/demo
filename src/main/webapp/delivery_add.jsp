@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>delivery_add</title>
+    <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
     <h1> 배송지 입력 </h1>
