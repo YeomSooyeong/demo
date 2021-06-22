@@ -28,7 +28,12 @@
         </div>
     </section>
     <section class="home_vod_table">
-
+        <table>
+            <tr>
+                <td> </td>
+                <td> </td>
+            </tr>
+        </table>
     </section>
 
 
