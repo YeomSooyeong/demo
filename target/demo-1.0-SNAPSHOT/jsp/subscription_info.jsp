@@ -1,17 +1,17 @@
 <%--
   Created by IntelliJ IDEA.
-  User: krgop
-  Date: 2021-06-21 021
-  Time: 21:48
+  User: MR_Oh
+  Date: 2021-06-22
+  Time: 오후 11:15
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>oneday_detail</title>
+    <title>subscription_info</title>
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-<h1>원데이클래스 상세</h1>
+<h1>구독 정보</h1>
 </body>
 </html>
