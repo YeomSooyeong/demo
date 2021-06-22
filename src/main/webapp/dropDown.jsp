@@ -43,12 +43,12 @@
     </div>
   </li>
 
-  <li class="menu_small">
-    <a class="menu_title" href="subscriptions.jsp">구독</a>
+  <li class="menu">
+    <a class="menu_small" href="subscriptions.jsp">구독</a>
   </li>
 
-  <li class="menu_small">
-    <a class="menu_title" href="mypage.jsp">마이페이지</a>
+  <li class="menu">
+    <a class="menu_small" href="mypage.jsp">마이페이지</a>
   </li>
 </ul>
 <!-- menu -->
