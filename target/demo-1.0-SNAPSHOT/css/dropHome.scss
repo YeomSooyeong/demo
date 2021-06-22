@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'NanumSquare';
   src: url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css'); /*폰트 파일 주소*/
@@ -18,7 +19,21 @@ body {
   width: 90%;
   margin: auto;
   display: block;
+}
+.small_img{
+  width: 30%;
+  display: block;
+}
+.table{
+  width: 90%;
+  margin:auto;
+  display: block;
+}
 
+.tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
 }
 .planeTxt{
 
