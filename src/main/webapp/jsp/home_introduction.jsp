@@ -9,11 +9,27 @@
 <html>
 <head>
     <title>home_introduction</title>
+    <link rel="stylesheet" href="../css/home.scss">
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
+<div class="home_menubar">
+    <ul>
+        <li class="home_menubar_detail">소개</li>
+        <li class="home_menubar_detail">연혁</li>
+        <li class="home_menubar_detail">연락</li>
+    </ul>
+</div>
+<div class="home_introduction">
+    <div class="introduction_content">
+        <div class="introduction_content_txt">
 
-<!-- menu -->
+        </div>
+        <div class="introduction_content_photo">
+
+        </div>
+    </div>
+</div>
 </body>
 </html>
