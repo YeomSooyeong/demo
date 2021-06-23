@@ -1,9 +1,14 @@
 .home_menubar {
   position : fixed;
-  top : 900px;
+  top : 200px;
+  left : 100px;
+}
+.home_menubar ul {
+  list-style-type: none;
 }
 .home_menubar_detail {
-  font-size : 20px;
-  padding : 10px;
-  border : 1px solid limegreen;
+  font-size : 18px;
+  padding : 10px 60px;
+  margin-bottom: 5px;
+  border : 1px solid lightgray;
 }
