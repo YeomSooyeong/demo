@@ -13,13 +13,7 @@
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-<div class="home_menubar">
-    <ul>
-        <li class="home_menubar_detail">소개</li>
-        <li class="home_menubar_detail">연혁</li>
-        <li class="home_menubar_detail">연락</li>
-    </ul>
-</div>
+<jsp:include page="nav_home.jsp"/>
 <div class="home_introduction">
     <div class="introduction_content">
         <div class="introduction_content_txt">

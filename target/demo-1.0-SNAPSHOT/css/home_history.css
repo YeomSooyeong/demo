@@ -25,11 +25,7 @@ h1 { font-size:200%;
 }
 .history h2::before {
     content: "";
-<<<<<<< HEAD
-    position: absolute;
-=======
     position: relative;
->>>>>>> 89114bff65f3c9eb58020eef0bb0bab58849f569
     left: -40px;
     top: 100%; width: 17px;
     height: 17px; border-radius: 100%;
@@ -44,25 +40,15 @@ h1 { font-size:200%;
 }
 .history div::before {
     content: "";
-<<<<<<< HEAD
-    position: absolute;
-    left: 8px;
-    top: 100px;
-=======
     position: relative;
     left: 8px;
     top: 300px;
->>>>>>> 89114bff65f3c9eb58020eef0bb0bab58849f569
     height: 100%;
     border-left: 2px solid #ddd;
 }
 .history div:first-child:before {
     top: 10px;
-<<<<<<< HEAD
-    height: clac(100%-10px);
-=======
     height: 100%;
->>>>>>> 89114bff65f3c9eb58020eef0bb0bab58849f569
 }
 .history ol {
     padding: 20px 0 74px;
