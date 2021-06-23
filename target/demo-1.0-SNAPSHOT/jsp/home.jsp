@@ -28,15 +28,6 @@
         </div>
     </section>
     <section class="home_vod_table">
-<<<<<<< HEAD
-        <table>
-            <tr>
-                <td> </td>
-                <td> </td>
-            </tr>
-        </table>
-    </section>
-=======
         <table class="table" style="align-self: center">
             <tr>
                 <td>
@@ -67,17 +58,12 @@
             ⓶ 온라인 회원: 회비 15만원(6개월), 20만원(12개월) / 온라인 강좌 영상구독
             3. 기타
             ⓵ 자격: 인문학 독서와 건강관리에 관심이 많으신 분
-            ⓶ 특전: 등록회원은 연 2회 진행하는 ‘인문콘서트’에 무료 초대
-            ⓷ 회비: 입금 계좌: 하나은행 129-910547-69507 김경진(총무)
-            ⓸ 정보: 자세한 내용은 <120세 건강과 인문학> 네이버 밴드 확인
-            https://band.us/@healthandhumanities.
-            문의: 02-3452-7762, 010-6380-0250 <br>
+            ⓶ 특전: 등록회원은 연 2회 진행하는 ‘인문콘서트’에 무료 초대<br>
             ⓹ 선물: 등록회원에게는 독서노트, 볼펜, 가방 제공<br>
             <img class="small_img" src="../res/gift.png" alt="gift">
-            ⓺ 2021년 읽을 책 목록은 별도의 파일로 제공
+
         </p>
     </section>
->>>>>>> a13363b7e9798723ae4600c5d433bb561f1d9784
 
 
 </body>
