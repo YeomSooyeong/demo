@@ -25,7 +25,7 @@ h1 { font-size:200%;
 }
 .history h2::before {
     content: "";
-    position: absolute;
+    position: relative;
     left: -40px;
     top: 100%; width: 17px;
     height: 17px; border-radius: 100%;
@@ -40,15 +40,15 @@ h1 { font-size:200%;
 }
 .history div::before {
     content: "";
-    position: absolute;
+    position: relative;
     left: 8px;
-    top: 100px;
+    top: 300px;
     height: 100%;
     border-left: 2px solid #ddd;
 }
 .history div:first-child:before {
     top: 10px;
-    height: clac(100%-10px);
+    height: 100%;
 }
 .history ol {
     padding: 20px 0 74px;
