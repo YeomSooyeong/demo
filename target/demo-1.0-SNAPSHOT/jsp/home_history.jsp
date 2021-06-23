@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<<<<<<< HEAD
     <title>History</title>
     <link rel="stylesheet" href="home_history.css">
 </head>
@@ -49,6 +50,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>History</title>
     <link rel="stylesheet" href="home_history.css">
+=======
+    <jsp:include page="dropDown.jsp"/>
+    <title>History</title>
+    <link rel="stylesheet" href="../css/home_history.css">
+>>>>>>> 89114bff65f3c9eb58020eef0bb0bab58849f569
 </head>
 <body>
 <h1>
