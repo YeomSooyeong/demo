@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>delivery_add</title>
+    <link rel="stylesheet" href="../css/dropHome.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
