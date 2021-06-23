@@ -10,7 +10,6 @@
 <head>
     <title>home_introduction</title>
     <link rel="stylesheet" href="../css/home.scss">
-    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>

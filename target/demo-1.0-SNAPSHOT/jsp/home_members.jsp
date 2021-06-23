@@ -8,9 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>home_members</title>
+    <jsp:include page="dropDown.jsp"/>
   </head>
   <body>
-  $END$
+
   </body>
 </html>
