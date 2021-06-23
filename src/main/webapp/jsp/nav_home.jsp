@@ -12,17 +12,17 @@
     <link rel="stylesheet" href="../css/dropHome.scss">
 </head>
 <body>
-<div class="home_menubar">
+<div class="menubar">
     <ul>
         <a href="home_introduction.jsp">
-            <li class="home_menubar_detail">소개</li>
+            <li class="menubar_detail">소개</li>
         </a>
 
         <a href="home_history.jsp">
-            <li class="home_menubar_detail">연혁</li>
+            <li class="menubar_detail">연혁</li>
         </a>
         <a href="home_contact.jsp">
-            <li class="home_menubar_detail">연락</li>
+            <li class="menubar_detail">연락</li>
         </a>
     </ul>
 </div>

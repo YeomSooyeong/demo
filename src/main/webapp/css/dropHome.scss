@@ -127,30 +127,31 @@ body {
 }
 
 /* home menubar */
-.home_menubar {
+.menubar {
   position: fixed;
   top: 200px;
   left: 100px;
 }
-.home_menubar ul {
+.menubar ul {
   list-style-type: none;
 }
-.home_menubar_detail {
+.menubar_detail {
   font-family: 'NanumSquare', sans-serif;
   font-size: 20px;
+  text-align: center;
   padding: 10px 60px;
   margin-bottom: 5px;
   border: 1px solid #649d44;
 }
-.home_menubar a {
+.menubar a {
   text-decoration: none;
   color: black;
 }
-.home_menubar_detail:hover {
+.menubar_detail:hover {
   cursor: pointer;
   background-color: #649d44;
   color: white;
 }
-.home_content {
+.use_nav_content {
   margin: 100px 350px;
 }

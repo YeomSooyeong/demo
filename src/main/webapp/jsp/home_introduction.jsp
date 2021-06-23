@@ -9,12 +9,12 @@
 <html>
 <head>
     <title>home_introduction</title>
-    <link rel="stylesheet" href="../css/home.scss">
+    <link rel="stylesheet" href="../css/sy.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
 <jsp:include page="nav_home.jsp"/>
-<div class="home_content">
+<div class="use_nav_content">
     <div class="introduction_content">
         <div class="introduction_content_txt">
             <h2> 120세 건강과 인문학 </h2>
