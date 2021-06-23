@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>myclass_on</title>
+    <link rel="stylesheet" href="../css/dropHome.scss">
     <jsp:include page="dropDown.jsp"/>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>

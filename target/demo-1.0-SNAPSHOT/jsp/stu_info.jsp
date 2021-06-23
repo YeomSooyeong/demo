@@ -9,9 +9,18 @@
 <html>
 <head>
     <title>stu_info</title>
+    <link rel="stylesheet" href="../css/dropHome.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
     <h1> 내 정보 </h1>
+    <section class="info" style="width: 40%">
+        <ul>
+            <li>
+                <dt>이름</dt>
+                <dd>박근령</dd>
+            </li>
+        </ul>
+    </section>
 </body>
 </html>
