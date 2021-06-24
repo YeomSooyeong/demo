@@ -17,12 +17,7 @@ body { padding: 100px;}
 h1 { font-size:200%;
 
 }
-.history h2 {
-    position: relative;
-    font-size: 32px;
-    color: #000;
-    line-height: 1;
-}
+
 .history h2::before {
     content: "";
     position: relative;
