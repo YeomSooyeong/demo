@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -8,7 +9,7 @@
     <title>History</title>
     <link rel="stylesheet" href="../css/dropHome.scss">
 </head>
-<body class=".history_body">
+<body>
 <h1>
     120years Health & Anthropology
 </h1>
