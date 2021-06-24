@@ -10,6 +10,12 @@
   font-weight: normal;
   font-style: normal;
 }
+
+td{
+  width: 600px;
+  text-align: center;
+}
+
 dt{
   display: block;
   font-size: 13px;
@@ -41,19 +47,17 @@ body {
 }
 
 .small_img{
-  width: 30%;
+  width: 200px;
+  height: auto;
   display: block;
+  alignment: center;
+  margin:0 auto;
 }
 .table{
-  margin:auto;
-  display: block;
+  width:1200px;
+
 }
 
-.tbody {
-  display: table-row-group;
-  vertical-align: middle;
-  border-color: inherit;
-}
 .planeTxt{
   font-family: 'MaruBuri-Regular', monospace;
   margin-left: 0;
@@ -107,10 +111,10 @@ body {
   color: black;
 }
 .menu_small{
-   color: blue;
-   font-size: 15px;
-   font-weight: bold;
- }
+  color: blue;
+  font-size: 15px;
+  font-weight: bold;
+}
 .menu_contents {
   display: none;
   color:gray;
@@ -164,8 +168,8 @@ body {
 }
 
 blockquote, q {
-    quotes: none;
-  }
+  quotes: none;
+}
 blockquote:before, blockquote:after, q:before, q:after {
   content: ''; content: none;
 }
@@ -241,4 +245,24 @@ table {
   float: right;
   width:30%;
   box-sizing: border-box;
+}
+
+.textBtn{
+  background-color: unset;
+  border:none;
+  box-shadow: #c1c1c1;
+  font-size: 20px;
+  color: #995418;
+  font-weight: bold;
+}
+
+.hire{
+  line-height: 30px;
+  display: block;
+  background-image:   url("../res/bg1.png");
+  background-size: cover;
+  margin:100px 150px 150px;
+  padding-top: 12%;
+  alignment: center;
+
 }
