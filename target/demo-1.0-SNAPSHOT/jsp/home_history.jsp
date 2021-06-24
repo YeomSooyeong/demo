@@ -8,7 +8,7 @@
     <title>History</title>
     <link rel="stylesheet" href="../css/dropHome.scss">
 </head>
-<body>
+<body class=".history_body">
 <h1>
     120years Health & Anthropology
 </h1>
