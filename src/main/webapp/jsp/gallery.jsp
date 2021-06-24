@@ -35,7 +35,7 @@
                         <img src="../res/BandPhoto_2021_06_15_12_25_16.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
                         <span>&nbsp</span>
                         <img src="../res/BandPhoto_2021_06_15_12_25_21.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
-                        <img src="../res/BandPhoto_2021_06_15_12_25_29.jpg" border = "0" width = "400" height = "300" alt = "bandphoto">
+                        <img src="../res/BandPhoto_2021_06_15_12_25_29.jpg" border = "0" width = "400" height = "300" alt = "bandphoto">ojy
                         <span>&nbsp</span>
                         <img src="../res/BandPhoto_2021_06_15_12_25_35.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
                         <span>&nbsp</span>
@@ -45,24 +45,6 @@
         </ul>
 
 
-<<<<<<< HEAD
-=======
-        <img src="../res/BandPhoto.jpg" border = "0" width = "400" height = "300" alt = "bandphoto">
-        <span>&nbsp</span>
-        <img src="../res/BandPhoto_2021_06_15_12_25_08.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
-        <span>&nbsp</span>
-        <img src="../res/BandPhoto_2021_06_15_12_25_11.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
-        <img src="../res/BandPhoto.jpg" border = "0" width = "400" height = "300" alt = "bandphoto">
-        <span>&nbsp</span>
-        <img src="../res/BandPhoto_2021_06_15_12_25_08.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
-        <span>&nbsp</span>
-        <img src="../res/BandPhoto_2021_06_15_12_25_11.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
-        <img src="../res/BandPhoto.jpg" border = "0" width = "400" height = "300" alt = "bandphoto">
-        <span>&nbsp</span>
-        <img src="../res/BandPhoto_2021_06_15_12_25_08.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
-        <span>&nbsp</span>
-        <img src="../res/BandPhoto_2021_06_15_12_25_11.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
->>>>>>> c84e9ebf7c57f7ecfbb55be0124f08f14f821584
 
 </div>
 </center>
