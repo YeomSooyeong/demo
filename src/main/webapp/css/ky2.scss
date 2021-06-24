@@ -46,6 +46,14 @@ body {
   text-underline-position: under;
 }
 
+.h3{
+  font-family: 'MaruBuri-Regular', monospace;
+  margin-top: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .small_img{
   width: 200px;
   height: auto;
@@ -60,8 +68,7 @@ body {
 
 .planeTxt{
   font-family: 'MaruBuri-Regular', monospace;
-  margin-left: 0;
-  margin-right: 0;
+  margin:auto;
   text-align: center;
   vertical-align: center;
 }
@@ -265,4 +272,8 @@ table {
   padding-top: 12%;
   alignment: center;
 
+}
+
+.address_info{
+  text-align: center;
 }
