@@ -1,9 +1,5 @@
 Manifest-Version: 1.0
 Created-By: IntelliJ IDEA
-<<<<<<< HEAD
 Built-By: User
-=======
-Built-By: krgop
->>>>>>> cb7157a9f09de16398d466075d98aabd71021546
 Build-Jdk: version 16.0.1
 

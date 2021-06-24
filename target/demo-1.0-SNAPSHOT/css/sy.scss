@@ -139,3 +139,26 @@
 .gallery_detail_contents_day {
   text-align: right;
 }
+.gallery_detail_contents_detail {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.gallery_detail_contents_detail img {
+  width: 90%;
+  margin: 10px 0;
+}
+.gallery_detail_btn {
+  margin-top: 50px;
+  text-align: center;
+}
+.gallery_detail_btn a {
+  text-decoration: none;
+}
+.gallery_detail_btn button {
+  background-color: #649d44;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px 20px;
+}

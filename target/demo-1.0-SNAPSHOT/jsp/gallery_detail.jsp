@@ -41,6 +41,7 @@
                 <br>
                 열강하시는 서울대 김원 교수님
                 <img src="../res/BandPhoto_2021_06_15_12_25_21.jpg">
+                <br>
                 1부와 2부 사이의 바이올린 연주
                 <br>
                 <img src="../res/BandPhoto_2021_06_15_12_25_29.jpg">
@@ -75,6 +76,9 @@
                 <br><br>
                 7.인문학을 생활화하기 위해서는 어떻게 해야 하는가
             </p>
+        </div>
+        <div class="gallery_detail_btn">
+            <a href="gallery.jsp"><button>목록</button></a>
         </div>
     </div>
 </div>

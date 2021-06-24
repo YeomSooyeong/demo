@@ -1,4 +1,4 @@
-
+/* header */
 @font-face {
   font-family: 'NanumSquare';
   src: url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css'); /*폰트 파일 주소*/
@@ -94,7 +94,6 @@ body {
 }
 .menus a {
   text-decoration: none;
-
 }
 .menu {
   margin-right: 100px;
@@ -108,10 +107,10 @@ body {
   color: black;
 }
 .menu_small{
-   color: blue;
-   font-size: 15px;
-   font-weight: bold;
- }
+  color: blue;
+  font-size: 15px;
+  font-weight: bold;
+}
 .menu_contents {
   display: none;
   color:gray;
@@ -127,7 +126,6 @@ body {
   margin: 10px 10px 15px 10px;
 }
 
-<<<<<<< HEAD
 /* home menubar */
 .menubar {
   position: fixed;
@@ -157,92 +155,3 @@ body {
 .use_nav_content {
   margin: 100px 350px;
 }
-
-/* home_history */
-
-.history body {
-  line-height: 1;
-  padding: 300px;
-}
-
-blockquote, q {
-    quotes: none;
-  }
-blockquote:before, blockquote:after, q:before, q:after {
-  content: ''; content: none;
-}
-table {
-  border-collapse: collapse; border-spacing: 0;
-}
-
-.history h2 {
-  position: relative;
-  font-size: 32px;
-  color: #000;
-  line-height: 1;
-}
-.history h2::before {
-  content: "";
-  position: absolute;
-  left: -40px;
-  width: 17px;
-  height: 17px;
-  border-radius: 100%;
-  background: #fff;
-  border: 5px solid #04B404;
-  box-sizing: border-box;
-}
-.history div {
-  position: relative;
-  padding: 0 0 0 40px;
-}
-.history div::before {
-  content: "";
-  position: absolute;
-  left: 8px; top: 0;
-  height: 100%;
-  border-left: 2px solid #ddd;
-}
-.history div:first-child:before {
-  top: 10px;
-  height: clac(100%-10px);
-}
-.history ol {
-  padding: 20px 0 74px;
-}
-.history li {
-  font-size: 17px;
-  color: #000;
-  line-height: 30px;
-}
-
-/* oneday */
-
-.parent{
-  width: 90%;
-  margin: 10px auto;
-}
-
-.first {
-  border: 1px solid red;
-  float: left;
-  width:30%;
-  box-sizing: border-box;
-}
-
-.second{
-  border: 1px solid green;
-  float: left;
-  margin-left: 5%;
-  width:30%;
-  box-sizing: border-box;
-}
-
-.third{
-  border: 1px solid blue;
-  float: right;
-  width:30%;
-  box-sizing: border-box;
-}
-=======
->>>>>>> cb7157a9f09de16398d466075d98aabd71021546
