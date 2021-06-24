@@ -1,4 +1,3 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -7,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <jsp:include page="dropDown.jsp"/>
     <title>History</title>
-    <link rel="stylesheet" href="../css/dropHome.scss">
+    <link rel="stylesheet" href="../css/home_history.css">
 </head>
 <body>
 <h1>

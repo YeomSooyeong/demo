@@ -9,12 +9,8 @@
 <html>
 <head>
     <title>mypage</title>
-    <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-<jsp:include page="nav_mypage.jsp"/>
-<div class="use_nav_content">
 
-</div>
 </body>
 </html>
