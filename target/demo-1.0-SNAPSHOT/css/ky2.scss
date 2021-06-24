@@ -290,6 +290,7 @@ table {
   padding:0 2em;
   cursor:pointer;
   transition:800ms ease all;
+  font-family: 'NanumSquare', sans-serif;
   outline:none;
 }
 .addbutton:hover{
@@ -317,3 +318,56 @@ table {
   transition:800ms ease all;
 }
 
+.toZoom{
+  background-color: blanchedalmond ;
+  padding: 5px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: center;
+  display: block;
+
+}
+.list{
+  font-family: 'MaruBuri-Regular', monospace;
+  text-align: center;
+  vertical-align: center;
+}
+
+.type08 {
+  border-collapse: collapse;
+  line-height: 1.5;
+  border-left: 1px solid #ccc;
+  text-align: center;
+  vertical-align: center;
+  margin-top: 80px;
+  margin-right:auto;
+  margin-left: auto;
+
+}
+
+.type08 thead th {
+  padding: 10px;
+  font-weight: bold;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 2px solid #c00;
+  background: #dcdcd1;
+}
+.type08 tbody th {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background: #ececec;
+}
+.type08 td {
+  width: 350px;
+  padding: 10px;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
