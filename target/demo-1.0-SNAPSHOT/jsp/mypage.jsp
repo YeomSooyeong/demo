@@ -10,6 +10,7 @@
 <head>
     <title>mypage</title>
     <link rel="stylesheet" href="../css/sy.scss">
+    <link rel="stylesheet" href="../css/dropHome.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
@@ -37,4 +38,7 @@
         </div>
     </div>
 </div>
+<footer>
+    <jsp:include page="footer.jsp" />
+</footer>
 </html>

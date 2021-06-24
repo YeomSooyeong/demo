@@ -14,4 +14,7 @@
 <body>
 <h1>구독</h1>
 </body>
+<footer>
+    <jsp:include page="footer.jsp"/>
+</footer>
 </html>

@@ -162,3 +162,26 @@
   font-size: 18px;
   padding: 5px 20px;
 }
+
+/* myclass_off */
+.link_to_zoom_zone {
+  padding: 0 20px;
+  text-align: center;
+  background-color: beige;
+}
+.link_to_zoom_zone a {
+  text-decoration: none;
+}
+.link_to_zoom_zone button {
+  margin: 50px;
+  padding: 50px 100px;
+  border: none;
+  background-color: lightgray;
+  color: white;
+  cursor: pointer;
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 50px;
+}
+.link_to_zoom_zone button:hover {
+  background-color: #649d44;
+}

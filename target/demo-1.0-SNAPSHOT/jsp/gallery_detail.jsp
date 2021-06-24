@@ -10,6 +10,7 @@
 <head>
     <title>gallery_detail</title>
     <link rel="stylesheet" href="../css/sy.scss">
+    <link rel="stylesheet" href="../css/dropHome.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
@@ -83,4 +84,7 @@
     </div>
 </div>
 </body>
+<footer>
+    <jsp:include page="footer.jsp" />
+</footer>
 </html>
