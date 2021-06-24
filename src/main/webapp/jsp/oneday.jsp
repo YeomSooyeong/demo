@@ -15,17 +15,17 @@
 <body>
 <h1>Oneday Class</h1>
 <div class="parent">
-    <button class="btn first">
+    <button class="oneday_btn first">
         Offline Oneday CLass<br>
         6/25 Thur 22:00<br>
         10 spots left
     </button>
-    <button class="btn second">
+    <button class="oneday_btn second">
         Offline Oneday CLass<br>
         6/27 Sat 22:00<br>
         10 spots left
     </button>
-    <button class="btn third">
+    <button class="oneday_btn third">
         Online Oneday CLass<br>
         6/29 Tue 22:00<br>
         10 spots left

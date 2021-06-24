@@ -209,7 +209,7 @@ body {
   width: 90%;
   margin: 10px auto;
 }
-.btn {
+.oneday_btn {
   border: 2px solid black;
   background-color: inherit;
   padding: 14px 28px;
@@ -241,4 +241,37 @@ body {
   float: right;
   width:30%;
   box-sizing: border-box;
+}
+
+/* Home_members */
+
+** {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+.members_li{
+  .box {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    overflow: hidden;
+  }
+  .profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.members_column1 {
+  flex: 30%;
+  padding: 10px;
+}
+.members_column2 {
+  line-height: 3em;
+  flex: 70%;
+  padding: 10px;
 }
