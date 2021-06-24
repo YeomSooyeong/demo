@@ -1,0 +1,45 @@
+/* footer*/
+@font-face {
+  font-family: 'NanumSquare';
+  src: url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css'); /*폰트 파일 주소*/
+}
+
+@font-face {
+  font-family: 'MaruBuri-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.ftWrap {
+  margin-top: 100px;
+  font-family: 'NanumSquare',Dotum, AppleGothic, Helvetica, sans-serif;
+  padding: 30px 0 160px;
+  border-top: 3px solid #000;
+}
+
+.ftWrap footer {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.footerMenuBox ul {
+  float: left;
+}
+
+.footerMenuBox ul h1 {
+  font-size: 20px;
+}
+
+.ft-info{
+  font-size: 12px;
+  line-height: 1.25;
+  font-family: 'NanumSquare',Dotum, AppleGothic, Helvetica, sans-serif;
+  float: right;
+  color: #424242;
+  text-align: right;
+  padding-right: 30px;
+}
