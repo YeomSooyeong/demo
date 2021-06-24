@@ -1,0 +1,50 @@
+table, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.gap {
+  height: 50px;
+}
+
+.home_menubar {
+  position: fixed;
+  top: 200px;
+  left: 100px;
+}
+
+.home_menubar ul {
+  list-style-type: none;
+}
+
+.home_menubar_detail {
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 20px;
+  padding: 10px 60px;
+  margin-bottom: 5px;
+  border: 1px solid #649d44;
+}
+
+.home_menubar_detail_selected {
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 20px;
+  padding: 10px 60px;
+  margin-bottom: 5px;
+  border: 1px solid #649d44;
+  background-color: darkorange;
+}
+
+.navi_bar:visited, .navi_bar:link, .navi_bar:hover {
+  color: black;
+  text-decoration: none;
+}
