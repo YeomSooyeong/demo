@@ -21,6 +21,56 @@
   width: 100%;
 }
 
+/* mypage */
+.mypage_wrap {
+  padding: 0 50px;
+  text-align: center;
+  font-family: 'NanumSquare', sans-serif;
+}
+.mypage_wrap button{
+  border: none;
+  cursor: pointer;
+}
+.mypage_wrap a {
+  text-decoration: none;
+}
+.mypage_stu_info_zone {
+  border: 1px solid lightgray;
+  padding: 30px;
+  text-align: left;
+}
+.mypage_stu_info_img {
+  width: 30%;
+}
+.mypage_stu_info_txt {
+  padding-left: 30px;
+  font-size: 18px;
+}
+.mypage_stu_info_txt_content {
+  margin-bottom: 20px;
+}
+.mypage_stu_info_txt_content a {
+  color: #649d44;
+}
+.mypage_stu_info_txt button {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
+.mypage_order_zone {
+  margin-top: 50px;
+}
+.mypage_order_zone h3{
+  text-align: left;
+}
+.mypage_order_zone button {
+  padding: 10px;
+  width: 45%;
+  background-color: #649d44;
+  color: white;
+}
+
 /* stu_info_login */
 .password_confirm_wrap {
   text-align: center;
