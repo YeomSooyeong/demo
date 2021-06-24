@@ -9,8 +9,14 @@
 <html>
 <head>
     <title>myclass_off</title>
+    <link rel="stylesheet" href="../css/sy.scss">
+    <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
+<div class="contents_wrap">
+    <div class="">
 
+    </div>
+</div>
 </body>
 </html>

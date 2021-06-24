@@ -41,9 +41,12 @@
 }
 .mypage_stu_info_img {
   width: 30%;
+  display: inline-block;
+  text-align: center;
 }
 .mypage_stu_info_txt {
   padding-left: 30px;
+  display: inline-block;
   font-size: 18px;
 }
 .mypage_stu_info_txt_content {
@@ -121,4 +124,18 @@
   border: 1px solid #649d44;
   background-color: #649d44;
   color: white;
+}
+
+/* all */
+.contents_wrap {
+  margin: 100px 350px;
+}
+
+/* gallery_detail */
+.gallery_detail_contents {
+  padding: 0 30px;
+  font-family: 'NanumSquare', sans-serif;
+}
+.gallery_detail_contents_day {
+  text-align: right;
 }
