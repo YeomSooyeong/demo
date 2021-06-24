@@ -1,0 +1,187 @@
+/* home_introduction */
+.introduction_content {
+  padding: 30px;
+  background-color: rgba(43, 43, 43, 0.65);
+}
+.introduction_content div {
+  display: inline-block;
+}
+.introduction_content_txt {
+  width: 67%;
+  padding-right: 20px;
+  color: white;
+  font-family: 'MaruBuri-Regular', monospace;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.introduction_content_photo {
+  width: 29%;
+}
+.introduction_content_photo img {
+  width: 100%;
+}
+
+/* mypage */
+.mypage_wrap {
+  padding: 0 50px;
+  text-align: center;
+  font-family: 'NanumSquare', sans-serif;
+}
+.mypage_wrap button{
+  border: none;
+  cursor: pointer;
+}
+.mypage_wrap a {
+  text-decoration: none;
+}
+.mypage_stu_info_zone {
+  border: 1px solid lightgray;
+  padding: 30px;
+  text-align: left;
+}
+.mypage_stu_info_img {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+.mypage_stu_info_txt {
+  padding-left: 30px;
+  display: inline-block;
+  font-size: 18px;
+}
+.mypage_stu_info_txt_content {
+  margin-bottom: 20px;
+}
+.mypage_stu_info_txt_content a {
+  color: #649d44;
+}
+.mypage_stu_info_txt button {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
+.mypage_order_zone {
+  margin-top: 50px;
+}
+.mypage_order_zone h3{
+  text-align: left;
+}
+.mypage_order_zone button {
+  padding: 10px;
+  width: 45%;
+  background-color: #649d44;
+  color: white;
+}
+
+/* stu_info_login */
+.password_confirm_wrap {
+  text-align: center;
+}
+.password_confirm_form {
+  width: 300px;
+  padding : 0 25px 25px 25px;
+  display: inline-block;
+  text-align: left;
+  border: 5px solid #649d44;
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 18px;
+}
+.password_confirm_form form {
+  display: inline-block;
+}
+.password_confirm_form form input {
+  font-size: 18px;
+  border: 1px solid #649d44;
+}
+.password_confirm_form_txt_zone {
+  margin: 40px 0 0 0;
+}
+.password_confirm_form_title {
+  width: 35%;
+  display: inline-block;
+}
+.password_confirm_form_btn_zone {
+  margin: 25px 0 0 0;
+  text-align: center;
+}
+.password_confirm_form_btn_zone a {
+  text-decoration: none;
+}
+.password_confirm_form_btn {
+  width: 45%;
+  font-size: 18px;
+  padding: 10px 0;
+  cursor: pointer;
+  border: none;
+}
+.btn_cancel {
+  border: 1px solid #649d44;
+  background-color: white;
+  color: #649d44;
+}
+.btn_confirm {
+  border: 1px solid #649d44;
+  background-color: #649d44;
+  color: white;
+}
+
+/* all */
+.contents_wrap {
+  margin: 100px 350px;
+}
+
+/* gallery_detail */
+.gallery_detail_contents {
+  padding: 0 30px;
+  font-family: 'NanumSquare', sans-serif;
+}
+.gallery_detail_contents_day {
+  text-align: right;
+}
+.gallery_detail_contents_detail {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.gallery_detail_contents_detail img {
+  width: 90%;
+  margin: 10px 0;
+}
+.gallery_detail_btn {
+  margin-top: 50px;
+  text-align: center;
+}
+.gallery_detail_btn a {
+  text-decoration: none;
+}
+.gallery_detail_btn button {
+  background-color: #649d44;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px 20px;
+}
+
+/* myclass_off */
+.link_to_zoom_zone {
+  padding: 0 20px;
+  text-align: center;
+  background-color: beige;
+}
+.link_to_zoom_zone a {
+  text-decoration: none;
+}
+.link_to_zoom_zone button {
+  margin: 50px;
+  padding: 50px 100px;
+  border: none;
+  background-color: lightgray;
+  color: white;
+  cursor: pointer;
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 50px;
+}
+.link_to_zoom_zone button:hover {
+  background-color: #649d44;
+}
