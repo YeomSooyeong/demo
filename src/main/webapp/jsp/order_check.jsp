@@ -9,9 +9,17 @@
 <html>
 <head>
     <title>order_check</title>
+    <link rel="stylesheet" href="../css/dropHome.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-<h1>주문</h1>
+<h1 class = "h1">주문 완료</h1>
+<div class="menubar">
+    <ul>
+        <a href="myclass_on.jsp">
+            <li class ="menubar_detail" style=" background-color: white; margin: 500px 50px 50px 1000px;">마이클래스</li>
+        </a>
+    </ul>
+</div>
 </body>
 </html>

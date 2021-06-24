@@ -9,9 +9,19 @@
 <html>
 <head>
     <title>subscription_info</title>
+    <link rel="stylesheet" href="../css/dropHome.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-<h1>구독 정보</h1>
+<jsp:include page = "nav_mypage.jsp"/>
+<div class ="use_nav_content">
+    <h1 class = "h1">구독 정보</h1>
+    <div style = "background-color: gray; opacity: 0.65; weight: 60%; height: 40%; margin: 13px 10px 30px 100px;">
+        <p> [수강중] </p>
+    </div>
+    <div style = "background-color: gray; opacity: 0.65; weight: 60%; height: 40%; margin: 13px 10px 30px 100px;">
+        <p>[입금확인중]</p>
+    </div>
+</div>
 </body>
 </html>

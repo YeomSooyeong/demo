@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>mypage</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="../css/sy.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
@@ -37,5 +38,10 @@
         </div>
     </div>
 </div>
+=======
+</head>
+<body>
+
+>>>>>>> cb7157a9f09de16398d466075d98aabd71021546
 </body>
 </html>
