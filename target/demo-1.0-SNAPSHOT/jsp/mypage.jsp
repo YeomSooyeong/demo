@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>mypage</title>
+    <link rel="stylesheet" href="../css/sy.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>

@@ -1,3 +1,4 @@
+/* home_introduction */
 .introduction_content {
   padding: 30px;
   background-color: rgba(43, 43, 43, 0.65);
@@ -18,4 +19,56 @@
 }
 .introduction_content_photo img {
   width: 100%;
+}
+
+/* stu_info_login */
+.password_confirm_wrap {
+  text-align: center;
+}
+.password_confirm_form {
+  width: 300px;
+  padding : 0 25px 25px 25px;
+  display: inline-block;
+  text-align: left;
+  border: 5px solid #649d44;
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 18px;
+}
+.password_confirm_form form {
+  display: inline-block;
+}
+.password_confirm_form form input {
+  font-size: 18px;
+  border: 1px solid #649d44;
+}
+.password_confirm_form_txt_zone {
+  margin: 40px 0 0 0;
+}
+.password_confirm_form_title {
+  width: 35%;
+  display: inline-block;
+}
+.password_confirm_form_btn_zone {
+  margin: 25px 0 0 0;
+  text-align: center;
+}
+.password_confirm_form_btn_zone a {
+  text-decoration: none;
+}
+.password_confirm_form_btn {
+  width: 45%;
+  font-size: 18px;
+  padding: 10px 0;
+  cursor: pointer;
+  border: none;
+}
+.btn_cancel {
+  border: 1px solid #649d44;
+  background-color: white;
+  color: #649d44;
+}
+.btn_confirm {
+  border: 1px solid #649d44;
+  background-color: #649d44;
+  color: white;
 }
