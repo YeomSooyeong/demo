@@ -47,4 +47,7 @@
     infowindow.open(map, marker);
 </script>
 </body>
+<footer>
+    <jsp:include page="footer.jsp"/>
+</footer>
 </html>
