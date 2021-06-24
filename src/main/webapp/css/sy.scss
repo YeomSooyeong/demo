@@ -1,0 +1,21 @@
+.introduction_content {
+  padding: 30px;
+  background-color: rgba(43, 43, 43, 0.65);
+}
+.introduction_content div {
+  display: inline-block;
+}
+.introduction_content_txt {
+  width: 67%;
+  padding-right: 20px;
+  color: white;
+  font-family: 'MaruBuri-Regular', monospace;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.introduction_content_photo {
+  width: 29%;
+}
+.introduction_content_photo img {
+  width: 100%;
+}

@@ -1,4 +1,4 @@
-
+/* header */
 @font-face {
   font-family: 'NanumSquare';
   src: url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css'); /*폰트 파일 주소*/
@@ -10,7 +10,16 @@
   font-weight: normal;
   font-style: normal;
 }
-
+dt{
+  display: block;
+  font-size: 13px;
+}
+dd{
+  display: block;
+  background-color: #c1c1c1;
+  padding: 5px;
+  font-size: 15px;
+}
 body {
   margin-left: 0;
   margin-right: 0;
@@ -20,12 +29,22 @@ body {
   margin: auto;
   display: block;
 }
+.h1{
+  font-family: 'MaruBuri-Regular', monospace;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+  text-decoration : underline;
+  text-underline-position: under;
+}
+
 .small_img{
   width: 30%;
   display: block;
 }
 .table{
-  width: 90%;
   margin:auto;
   display: block;
 }
@@ -36,11 +55,22 @@ body {
   border-color: inherit;
 }
 .planeTxt{
-
   font-family: 'MaruBuri-Regular', monospace;
   margin-left: 0;
   margin-right: 0;
-  text-align: center
+  text-align: center;
+  vertical-align: center;
+}
+.planeTxtBackg{
+  background-color: lightgoldenrodyellow;
+  font-family: 'MaruBuri-Regular', monospace;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: center;
+  width: 60%;
+  display: block;
+  padding-bottom: 15px;
 }
 
 .logo {
@@ -64,7 +94,6 @@ body {
 }
 .menus a {
   text-decoration: none;
-
 }
 .menu {
   margin-right: 100px;
@@ -97,3 +126,32 @@ body {
   margin: 10px 10px 15px 10px;
 }
 
+/* home menubar */
+.menubar {
+  position: fixed;
+  top: 200px;
+  left: 100px;
+}
+.menubar ul {
+  list-style-type: none;
+}
+.menubar_detail {
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 60px;
+  margin-bottom: 5px;
+  border: 1px solid #649d44;
+}
+.menubar a {
+  text-decoration: none;
+  color: black;
+}
+.menubar_detail:hover {
+  cursor: pointer;
+  background-color: #649d44;
+  color: white;
+}
+.use_nav_content {
+  margin: 100px 350px;
+}
