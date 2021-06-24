@@ -14,4 +14,7 @@
 <body>
 <h1>주문</h1>
 </body>
+<footer>
+    <jsp:include page="footer.jsp"/>
+</footer>
 </html>
