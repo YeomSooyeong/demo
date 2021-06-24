@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>gallery</title>
+        <link rel="stylesheet" href="../css/dropHome.scss">
     <jsp:include page="dropDown.jsp"/>
 
 </head>
@@ -20,22 +21,30 @@
 <center>
 
 <div style=" float: left; height: auto; width: auto; margin: 0px 100px 100px 0px; padding: 10px 100px 0px 100px;">
+        <ul>
+                <a href="gallery_detail.jsp">
 
-        <img src="../res/BandPhoto.jpg" border = "0" width = "400" height = "300" alt = "bandphoto">
-        <span>&nbsp</span>
-        <img src="../res/BandPhoto_2021_06_15_12_25_08.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
-        <span>&nbsp</span>
-        <img src="../res/BandPhoto_2021_06_15_12_25_11.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
-        <img src="../res/BandPhoto_2021_06_15_12_25_14.jpg" border = "0" width = "400" height = "300" alt = "bandphoto">
-        <span>&nbsp</span>
-        <img src="../res/BandPhoto_2021_06_15_12_25_16.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
-        <span>&nbsp</span>
-        <img src="../res/BandPhoto_2021_06_15_12_25_21.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
-        <img src="../res/BandPhoto_2021_06_15_12_25_29.jpg" border = "0" width = "400" height = "300" alt = "bandphoto">
-        <span>&nbsp</span>
-        <img src="../res/BandPhoto_2021_06_15_12_25_35.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
-        <span>&nbsp</span>
-        <img src="../res/BandPhoto_2021_06_15_12_25_38.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
+
+                        <img src="../res/BandPhoto.jpg" border = "0" width = "400" height = "300" alt = "bandphoto">
+                        <span>&nbsp</span>
+                        <img src="../res/BandPhoto_2021_06_15_12_25_08.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
+                        <span>&nbsp</span>
+                        <img src="../res/BandPhoto_2021_06_15_12_25_11.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
+                        <img src="../res/BandPhoto_2021_06_15_12_25_14.jpg" border = "0" width = "400" height = "300" alt = "bandphoto">
+                        <span>&nbsp</span>
+                        <img src="../res/BandPhoto_2021_06_15_12_25_16.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
+                        <span>&nbsp</span>
+                        <img src="../res/BandPhoto_2021_06_15_12_25_21.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
+                        <img src="../res/BandPhoto_2021_06_15_12_25_29.jpg" border = "0" width = "400" height = "300" alt = "bandphoto">
+                        <span>&nbsp</span>
+                        <img src="../res/BandPhoto_2021_06_15_12_25_35.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
+                        <span>&nbsp</span>
+                        <img src="../res/BandPhoto_2021_06_15_12_25_38.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
+
+                </a>
+        </ul>
+
+
 
 </div>
 </center>
