@@ -9,15 +9,14 @@
 <html>
 <head>
     <title>oneday_detail</title>
+    <link href="/css/swh.scss">
     <jsp:include page="dropDown.jsp"/>
     <jsp:include page="nav_home.jsp"/>
 </head>
 <body>
-<h1>원데이클래스 상세</h1>
 <div class="ondeay_detail">
-    <table>
-
-    </table>
+    <h1>원데이클래스 상세</h1>
+<hr class="garo">
 </div>
 </body>
 <footer>
