@@ -9,11 +9,18 @@
 <html>
 <head>
     <title>home_contact</title>
+    <link rel="stylesheet" href="/css/home_contact.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-<h1>찾아오시는 길</h1>
-<div id="map" style="position:absolute;top:20%;left:20%;%;width:40%;height:40%;"></div>
+<div class="home_menubar">
+    <ul>
+        <li class="home_menubar_detail"><a class="navi_bar" href="home_introduction.jsp">소개</a></li>
+        <li class="home_menubar_detail"><a class="navi_bar" href="home_history.jsp">연혁</a></li>
+        <li class="home_menubar_detail_selected">찾아오시는 길</li>
+    </ul>
+</div>
+<div id="map"></div>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=60d7e79be1f221abb281f7b09bde9bb6"></script>
 <script>
     var container = document.getElementById('map');
@@ -34,10 +41,13 @@
 
     var infowindow = new kakao.maps.InfoWindow({
         position: options.center,
-        content: '<div style="width:350px;height:100px;"><h4>법정동 주소정보</h4><br>도로명 주소 : 서울특별시 강남구 영동대로85길 38<br>지번 주소 : 서울특별시 강남구 대치동 944-25</div>'
+        content: '<div id="content"><h4>법정동 주소정보</h4><br>도로명 주소 : 서울특별시 강남구 영동대로85길 38<br>지번 주소 : 서울특별시 강남구 대치동 944-25</div>'
     })
 
     infowindow.open(map, marker);
 </script>
 </body>
+<footer>
+    <jsp:include page="footer.jsp"/>
+</footer>
 </html>

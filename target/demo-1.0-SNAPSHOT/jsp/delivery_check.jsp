@@ -9,9 +9,13 @@
 <html>
 <head>
     <title>delivery_check</title>
+    <link rel="stylesheet" href="../css/ky2.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
 <h1>배송 확인</h1>
 </body>
+<footer>
+    <jsp:include page="footer.jsp"/>
+</footer>
 </html>
