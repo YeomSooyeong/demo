@@ -22,8 +22,9 @@
 
 <div style=" float: left; height: auto; width: auto; margin: 0px 100px 100px 100px; padding: 100px 100px 100px 100px;">
         <ul>
-                <a href="gallery_detail.jsp">
+                <a href="gallery_detail.jsp/">
                         <img src="../res/BandPhoto.jpg" border = "0" width = "400" height = "300" >
+                </a>
                         <span>&nbsp</span>
                         <img src="../res/BandPhoto_2021_06_15_12_25_08.jpg" border = "0"  width = "400" height = "300" >
                         <span>&nbsp</span>
@@ -38,7 +39,7 @@
                         <img src="../res/BandPhoto_2021_06_15_12_25_35.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
                         <span>&nbsp</span>
                         <img src="../res/BandPhoto_2021_06_15_12_25_38.jpg" border = "0"  width = "400" height = "300" alt = "bandphoto">
-                </a>
+
         </ul>
 
 

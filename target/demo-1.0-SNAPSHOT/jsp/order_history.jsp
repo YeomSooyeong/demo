@@ -15,10 +15,10 @@
 <body>
     <jsp:include page="nav_mypage.jsp"/>
     <div class="use_nav_content">
-        <h1 class = "h1">주문 히스토리</h1>
+        <h1 class = "h1">결제정보 히스토리</h1>
             <section class="planeTxtBackg">
-                <p style="display: inline-block"> 회원님의 주문내역은 </p>
-                <p style = "font-size: 25px; font-weight: bold; display: inline-block"> 오디세이아 오프라인 클래스 </p>
+                <p style="display: inline-block"> 회원님의 지난 결제정보는 </p>
+                <p style = "font-size: 25px; font-weight: bold; display: inline-block"> 신용카드 </p>
                 <p style="display: inline-block"> 입니다.</p>
                 <br>
             </section>
