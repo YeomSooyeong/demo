@@ -10,16 +10,18 @@
 <head>
     <title>home_introduction</title>
     <link rel="stylesheet" href="../css/sy.scss">
+    <link rel="stylesheet" href="../css/ky2.scss">
     <link rel="stylesheet" href="../css/dropHome.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
 <jsp:include page="nav_home.jsp"/>
 <div class="use_nav_content">
-    <h1>소개</h1>
+    <h1 class="h3">소개</h1>
     <div class="introduction_content">
         <div class="introduction_content_txt">
             <h2> 120세 건강과 인문학 </h2>
+            <img class="introduction_content_photo" src="../res/home_introduction.jpg">
             세상이 빠르게 변화하고 있습니다.
             눈부신 기술의 진보 특히, 인공지능, 빅테이터, 초연결 그리고 유전의학과 정밀의료의 발전은 우리를 지금까지 없었던 새로운 세상으로 안내하고 있습니다.
             앞으로 산업과 직업, 하는 일과 건강관리의 변혁은 피할 수 없게 되었습니다.
@@ -35,9 +37,6 @@
             의학과 인문학의 조화를 통해 건강한 인간으로 사회에 선한 영향력을 발휘하고, 주체적인 삶을 살기 위한 지혜를 모색해가고자 합니다.
             <br><br>
             <b>건강과 인문학을 위한 실천의 장에 여러분을 초대합니다.</b>
-        </div>
-        <div class="introduction_content_photo">
-            <img src="../res/home_introduction.jpg">
         </div>
     </div>
 </div>
