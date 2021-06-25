@@ -14,10 +14,8 @@
     <link rel="stylesheet" href="../css/swh.scss">
     <link rel="stylesheet" href="../css/ky2.scss">
     <jsp:include page="dropDown.jsp"/>
-    <jsp:include page="nav_home.jsp"/>
 </head>
 <body>
-<div class="use_nav_content">
     <h1 class="h1">원데이 클래스</h1>
     <p class="oneday_detail_headline">논어</p>
     <div class="oneday_detail">
@@ -60,9 +58,8 @@
             </li>
         </ul>
     </div>
-</div>
 <section class="list">
-    <table class="type08">
+    <table class="oneday_detail_table">
         <thead>
         <tr>
             <th scope="cols">번호</th>
@@ -90,7 +87,7 @@
     </table>
 </section>
 
-<div class="toZoom">
+<div class="button">
     <button class="addbutton">청강신청</button>
 </div>
 </body>
