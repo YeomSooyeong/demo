@@ -10,6 +10,7 @@
 <body>
 <jsp:include page="nav_home.jsp"/>
 <div class="use_nav_content">
+    <h1 class="h3">연혁</h1>
     <div class="history_wrapper">
     <div class="history history_history">
         <div>

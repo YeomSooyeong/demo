@@ -314,7 +314,11 @@ body {
     object-fit: cover;
   }
 }
-
+.members_align{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 .members_column1 {
   flex: 30%;
   padding: 10px;
