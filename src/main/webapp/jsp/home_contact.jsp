@@ -18,7 +18,7 @@
 </head>
 <body>
 <div class="use_nav_content">
-    <h1 class="h1">오시는 길</h1>
+    <h1 class="h3">오시는 길</h1>
     <div id="map"></div>
     <div class="map_detail">
         <div class="map_detail_head">

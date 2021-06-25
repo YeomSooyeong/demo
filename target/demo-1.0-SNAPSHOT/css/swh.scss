@@ -82,14 +82,14 @@ h1 {
 
 .oneday_detail {
   border-top: 1px solid black;
-  width: 70%;
+  width: 55%;
   margin-bottom: 50px;
-  margin-left: 200px;
+  margin-left: 300px;
 }
 
 .oneday_detail_headline{
   margin-top: 100px;
-  margin-left: 200px;
+  margin-left: 300px;
 }
 
 ul {
@@ -107,4 +107,51 @@ ul {
 .oneday_detail > ul > li > div {
   margin-left: 30%;
   width: 70%;
+}
+
+.button{
+  padding: 5px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: center;
+  display: block;
+}
+
+.oneday_detail_table {
+  border-collapse: collapse;
+  line-height: 1.5;
+  border-left: 1px solid #ccc;
+  text-align: center;
+  vertical-align: center;
+  margin-top: 80px;
+  margin-right:auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+.oneday_detail_table thead th {
+  padding: 5px;
+  font-weight: bold;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 2px solid #c00;
+  background: #dcdcd1;
+}
+.oneday_detail_table tbody th {
+  width: 150px;
+  padding: 5px;
+  font-weight: bold;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background: #ececec;
+}
+.oneday_detail_table td {
+  width: 350px;
+  padding: 5px;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
