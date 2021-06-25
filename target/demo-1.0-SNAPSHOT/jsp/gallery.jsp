@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<div style="float:left; color:#000000; padding:50px 10px 0px 300px; font-size:50px; font-weight:bold;"> 갤러리 </div>
+<h1 class="h1"> 갤러리 </h1>
 
 <center>
 
@@ -49,4 +49,7 @@
 </div>
 </center>
 </body>
+<footer>
+        <jsp:include page="footer.jsp" />
+</footer>
 </html>

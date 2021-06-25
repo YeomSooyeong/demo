@@ -12,31 +12,35 @@
     <jsp:include page="dropDown.jsp"/>
     <title>Members</title>
     <link rel="stylesheet" href="../css/dropHome.scss">
+    <link rel="stylesheet" href="../css/sy.scss">
   </head>
-  <body>
-
-  <h1>Members</h1>
-
-  <div class="row">
-    <div class="members_column1">
-      <img src="../res/BandPhoto.jpg" border = "0" width = "200" height = "200" alt = "bandphoto">
-      <li>&nbsp</li>
-      <img src="../res/BandPhoto_2021_06_15_12_25_08.jpg" border = "0"  width = "200" height = "200" alt = "bandphoto">
-      <li>&nbsp</li>
+    <body>
+    <jsp:include page="nav_home.jsp"/>
+      <div class="use_nav_content">
+        <div class="row">
+          <div class="members_column1">
+            <img src="../res/BandPhoto.jpg" border = "0" width = "200" height = "200" alt = "bandphoto">
+            <li>&nbsp</li>
+            <img src="../res/BandPhoto_2021_06_15_12_25_08.jpg" border = "0"  width = "200" height = "200" alt = "bandphoto">
+            <li>&nbsp</li>
+            </div>
+          <div class="members_column2">
+            <li>
+              Professor James Kim<br>
+              Playing Lost Ark<br>
+              Item Level 1462.5
+            </li>
+            <br>
+            <li>
+              Professor pky<br>
+              Computer Science<br>
+              Likes Starbucks
+            </li>
+          </div>
+        </div>
       </div>
-    <div class="members_column2">
-      <li>
-        Professor James Kim<br>
-        Playing Lost Ark<br>
-        Item Level 1462.5
-      </li>
-      <br>
-      <li>
-        Professor pky<br>
-        Computer Science<br>
-        Likes Starbucks
-      </li>
-    </div>
-  </div>
-  </body>
+    </body>
+  <footer>
+    <jsp:include page="footer.jsp" />
+  </footer>
 </html>

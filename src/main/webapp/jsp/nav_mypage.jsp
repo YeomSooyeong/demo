@@ -22,10 +22,13 @@
             <li class="menubar_detail">배송신청</li>
         </a>
         <a href="stu_info_login.jsp">
-            <li class="menubar_detail">info</li>
+            <li class="menubar_detail">내 정보</li>
         </a>
-        <a href="subscriptions.jsp">
+        <a href="subscription_info.jsp">
             <li class="menubar_detail">구독정보</li>
+        </a>
+        <a href="order_history.jsp">
+            <li class="menubar_detail">결제정보</li>
         </a>
     </ul>
 </div>

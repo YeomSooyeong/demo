@@ -8,70 +8,45 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>myclass_rec</title>
+    <title>myclass_on</title>
+    <link rel="stylesheet" href="../css/ky2.scss">
     <jsp:include page="dropDown.jsp"/>
-    <link rel="stylesheet" href="/css/myclass_rec.scss">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<div class="home_menubar">
-    <ul>
-        <li class="home_menubar_detail"><a class="navi_bar" href="myclass_on.jsp">온라인</a></li>
-        <li class="home_menubar_detail"><a class="navi_bar" href="myclass_off.jsp">오프라인</a></li>
-        <li class="home_menubar_detail_selected">녹화</li>
-    </ul>
-</div>
-<div class="gap"></div>
-<h1>마이클래스 녹화</h1>
-<div class="gap"></div>
-<p align="middle">
-    <video width="20%" height="20%" controls>
-        <source src="/res/sample.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</p>
-
-<table>
-    <tr>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-    </tr>
-    <tr>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-    </tr>
-    <tr>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-    </tr>
-    <tr>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-    </tr>
-    <tr>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-        <td>수강날짜</td>
-    </tr>
-</table>
+<h1 class="h1"> 마이클래스 </h1>
+<section class="toZoom">
+    <p class="planeTxt"> 추천 강의</p>
+    <iframe width="400" height="255" src="https://www.youtube.com/embed/-8llkeo-7vE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+<section class="list">
+    <table class="type08">
+        <thead>
+        <tr>
+            <th scope="cols">구분</th>
+            <th scope="cols">제목</th>
+            <th scope="cols">날짜</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">강의자료</th>
+            <td>6월 24일 논어 강의자료 입니다.</td>
+            <td>21/06/23</td>
+        </tr>
+        <tr>
+            <th scope="row">녹화강의</th>
+            <td>6월 23일 천자문 녹화강의 입니다.</td>
+            <td>21/06/22</td>
+        </tr>
+        <tr>
+            <th scope="row">강의자료</th>
+            <td>6월 19일 금강산 강의자료 입니다.</td>
+            <td>21/06/21</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
 </body>
 <footer>
     <jsp:include page="footer.jsp"/>

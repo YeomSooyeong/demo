@@ -23,4 +23,7 @@
         </p>
     </section>
 </body>
+<footer>
+    <jsp:include page="footer.jsp" />
+</footer>
 </html>

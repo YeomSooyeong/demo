@@ -9,18 +9,16 @@
 <html>
 <head>
     <title>home_contact</title>
-    <link rel="stylesheet" href="/css/home_contact.scss">
+    <link rel="stylesheet" href="../css/sy.scss">
+    <link rel="stylesheet" href="../css/dropHome.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-<div class="home_menubar">
-    <ul>
-        <li class="home_menubar_detail"><a class="navi_bar" href="home_introduction.jsp">소개</a></li>
-        <li class="home_menubar_detail"><a class="navi_bar" href="home_history.jsp">연혁</a></li>
-        <li class="home_menubar_detail_selected">찾아오시는 길</li>
-    </ul>
-</div>
-<div id="map"></div>
+<jsp:include page="nav_home.jsp"/>
+<div class="use_nav_content">
+
+
+<div id="map">
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=60d7e79be1f221abb281f7b09bde9bb6"></script>
 <script>
     var container = document.getElementById('map');
@@ -45,7 +43,8 @@
     })
 
     infowindow.open(map, marker);
-</script>
+</script></div>
+</div>
 </body>
 <footer>
     <jsp:include page="footer.jsp"/>

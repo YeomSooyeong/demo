@@ -21,8 +21,11 @@
         <a href="home_history.jsp">
             <li class="menubar_detail">연혁</li>
         </a>
+        <a href="home_members.jsp">
+            <li class="menubar_detail">구성원</li>
+        </a>
         <a href="home_contact.jsp">
-            <li class="menubar_detail">연락</li>
+            <li class="menubar_detail">오시는 길</li>
         </a>
     </ul>
 </div>
