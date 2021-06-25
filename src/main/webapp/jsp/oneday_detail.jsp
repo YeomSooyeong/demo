@@ -16,48 +16,47 @@
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-    <h1 class="h1">원데이 클래스</h1>
-    <p class="oneday_detail_headline">논어</p>
-    <div class="oneday_detail">
-        <ul>
-            <li>
-                <span>구분</span>
-                <div>
-                    <p>온라인 or 오프라인</p>
-                </div>
-            </li>
-            <li>
-                <span>강의주제</span>
-                <div>
-                    <p>논어</p>
-                </div>
-            </li>
-            <li>
-                <span>강의날짜</span>
-                <div>
-                    <p>2021.06.25 17:00 ~ 18:00</p>
-                </div>
-            </li>
-            <li>
-                <span>키워드</span>
-                <div>
-                    <p>학(學), 명(命), 의(義), 군자(君子), 소인(小人), 예(禮), 서(恕),미(美), 정(政), 인(仁), 효(孝), 명(名)</p>
-                </div>
-            </li>
-            <li>
-                <span>신청상태</span>
-                <div>
-                    <p>신청가능 or 신청마감 or 강의마감</p>
-                </div>
-            </li>
-            <li>
-                <span>강의 수강자</span>
-                <div>
-                    <p>10 / 25</p>
-                </div>
-            </li>
-        </ul>
-    </div>
+<p class="oneday_detail_headline">논어</p>
+<div class="oneday_detail">
+    <ul>
+        <li>
+            <span>구분</span>
+            <div>
+                <p>온라인 or 오프라인</p>
+            </div>
+        </li>
+        <li>
+            <span>강의주제</span>
+            <div>
+                <p>논어</p>
+            </div>
+        </li>
+        <li>
+            <span>강의날짜</span>
+            <div>
+                <p>2021.06.25 17:00 ~ 18:00</p>
+            </div>
+        </li>
+        <li>
+            <span>키워드</span>
+            <div>
+                <p>학(學), 명(命), 의(義), 군자(君子), 소인(小人), 예(禮), 서(恕),미(美), 정(政), 인(仁), 효(孝), 명(名)</p>
+            </div>
+        </li>
+        <li>
+            <span>신청상태</span>
+            <div>
+                <p>신청가능 or 신청마감 or 강의마감</p>
+            </div>
+        </li>
+        <li>
+            <span>강의 수강자</span>
+            <div>
+                <p>10 / 25</p>
+            </div>
+        </li>
+    </ul>
+</div>
 <section class="list">
     <table class="oneday_detail_table">
         <thead>
@@ -87,8 +86,13 @@
     </table>
 </section>
 
-<div class="button">
-    <button class="addbutton">청강신청</button>
+<div class="gallery_detail_btn">
+    <a href="">
+        <button>청강신청</button>
+    </a>
+    <a href="oneday.jsp">
+        <button>목록</button>
+    </a>
 </div>
 </body>
 <footer>
