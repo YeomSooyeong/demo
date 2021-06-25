@@ -12,9 +12,7 @@
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-<<<<<<< HEAD
-<h1>배송 요청</h1>
-=======
+
 <jsp:include page = "nav_mypage.jsp"/>
 <div class ="use_nav_content">
 
@@ -42,6 +40,6 @@
         </div>
     </div>
 </div>
->>>>>>> 57755fc0c43d8b1ead1b2ea8e1c697ee34dabc87
+
 </body>
 </html>
