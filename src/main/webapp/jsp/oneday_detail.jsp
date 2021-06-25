@@ -14,9 +14,8 @@
     <jsp:include page="nav_home.jsp"/>
 </head>
 <body>
-<div class="ondeay_detail">
+<div class="oneday_detail">
     <h1>원데이클래스 상세</h1>
-<hr class="garo">
 </div>
 </body>
 <footer>

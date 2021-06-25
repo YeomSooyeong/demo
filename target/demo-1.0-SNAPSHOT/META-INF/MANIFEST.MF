@@ -1,5 +1,10 @@
 Manifest-Version: 1.0
 Created-By: IntelliJ IDEA
-Built-By: pky31
+<<<<<<< HEAD
+Built-By: MR_Oh
+Build-Jdk: 16.0.1
+=======
+Built-By: User
 Build-Jdk: version 16.0.1
+>>>>>>> bd1b4a03cea61d06d97c6340572b45c80e9ca506
 
