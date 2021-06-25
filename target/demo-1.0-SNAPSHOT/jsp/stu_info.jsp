@@ -68,28 +68,28 @@
                                 </select>
                             </dd>
                         </li>
-                        <li>
+                        <li style="margin-bottom: 2px">
                             <dt>휴대폰</dt>
-                            <dd><input type="text" name="etcphone"  id="etcphone" class="MS_input_tel" size="15" maxlength="30" value=""></dd>
+                            <dd style="margin: 0; background-color: #dcdcd1; "><input type="text" name="etcphone"  id="etcphone" class="MS_input_tel" size="15" maxlength="30" value=""></dd>
                         </li>
-                        <li class="receive">
+                        <li class="receive" style="margin-bottom: 2px">
                             <dt>뉴스메일</dt>
-                            <dd>
+                            <dd style="margin: 0; background-color: #dcdcd1; ">
                                 <label style="margin-right:20px;">        <input type="radio" name="emailreceive" value="Y">
                                     받습니다.</label>
                                 <label>        <input type="radio" name="emailreceive" value="N" checked=""> 받지 않습니다.</label>
                             </dd>
                         </li>
-                        <li class="receive">
+                        <li class="receive" style="margin-bottom: 2px">
                             <dt>문자안내</dt>
-                            <dd>
+                            <dd style="margin: 0; background-color: #dcdcd1; ">
                                 <label style="margin-right:20px;">        <input type="radio" name="smsreceive"  value="Y"> 받습니다.</label>
                                 <label>        <input type="radio" name="smsreceive" value="N" checked=""> 받지 않습니다.</label>
                             </dd>
                         </li>
-                        <li class="receive">
+                        <li class="receive" style="margin-bottom: 2px">
                             <dt>앱Push알림</dt>
-                            <dd>
+                            <dd style="margin: 0; background-color: #dcdcd1; ">
                                 <label style="margin-right:20px;">        <input type="radio" name="pushreceive"  value="Y"> 받습니다.</label>
                                 <label>        <input type="radio" name="pushreceive" value="N" checked=""> 받지 않습니다.</label>
                             </dd>
