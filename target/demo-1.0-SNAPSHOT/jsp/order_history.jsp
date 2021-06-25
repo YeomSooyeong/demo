@@ -16,9 +16,9 @@
 <body>
     <jsp:include page="nav_mypage.jsp"/>
     <div class="use_nav_content">
-        <section class="list" style ="margin-left: 10%">
-        <h1 class = "h1">결제정보 히스토리</h1>
-        <table class="type08">
+        <section class="list" style ="margin-left: 10%;">
+        <h1 class = "h3">결제정보</h1>
+        <table class="type08" style="table-layout: auto">
             <thead>
             <tr>
                 <th scope="cols">구분</th>
