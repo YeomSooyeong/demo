@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/sy.scss">
     <link rel="stylesheet" href="../css/dropHome.scss">
     <link rel="stylesheet" href="../css/swh.scss">
+    <link rel="stylesheet" href="../css/ky2.scss">
     <jsp:include page="dropDown.jsp"/>
     <jsp:include page="nav_home.jsp"/>
 </head>
@@ -20,30 +21,25 @@
     <div id="map"></div>
     <div class="map_detail">
         <div class="map_detail_head">
-            교통편
-        </div>
+            <p class="planeTxt">교통편</p></div>
         <div class="map_detail_info">
-            지하철 : 2호선 삼성역 4번출구 도보 300M<br>
-            버스 : 한국무역센터.삼성역 또는 포스코사거리 하차
-        </div>
+            <p class="planeTxt">지하철 : 2호선 삼성역 4번출구 도보 300M<br>
+                                버스 : 한국무역센터.삼성역 또는 포스코사거리 하차
+            </p></div>
     </div>
     <div class="map_detail">
         <div class="map_detail_head">
-            주소·연락처
-        </div>
+            <p class="planeTxt">주소·연락처</p></div>
         <div class="map_detail_info">
-            서울특별시 강남구 영동대로85길 38 진성빌딩 10층 (우)06180<br>
-            (대치동 944-25)
-        </div>
+            <p class="planeTxt">서울특별시 강남구 영동대로85길 38 진성빌딩 10층 (우)06180<br>
+                                (대치동 944-25)</p></div>
     </div>
     <div class="map_detail">
         <div class="map_detail_head">
-            참고사항
-        </div>
+            <p class="planeTxt">참고사항</p></div>
         <div class="map_detail_info">
-            1층 고급 커피점<br>
-            지하주차장 및 유료주차장
-        </div>
+            <p class="planeTxt">1층 고급 커피점<br>
+                                지하주차장 및 유료주차장</p></div>
     </div>
     <script type="text/javascript"
             src="//dapi.kakao.com/v2/maps/sdk.js?appkey=60d7e79be1f221abb281f7b09bde9bb6"></script>
