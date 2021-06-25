@@ -24,7 +24,7 @@
                 <div class="menubar">
                     <ul>
                         <a href="order.jsp">
-                            <li class ="menubar_detail" style=" background-color: white; margin: 480px 50px 50px 525px;">신청하기</li>
+                            <li class ="menubar_detail" style=" background-color: white; margin: 450px 50px 50px 525px;">신청하기</li>
                         </a>
                     </ul>
                 </div>
@@ -33,7 +33,7 @@
             <div class="menubar">
                 <ul>
                     <a href="order.jsp">
-                        <li class ="menubar_detail" style=" background-color: white; margin: 480px 50px 50px 888px;">신청하기</li>
+                        <li class ="menubar_detail" style=" background-color: white; margin: 450px 50px 50px 888px;">신청하기</li>
                     </a>
                 </ul>
             </div>

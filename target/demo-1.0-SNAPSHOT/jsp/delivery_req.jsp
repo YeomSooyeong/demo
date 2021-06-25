@@ -12,13 +12,7 @@
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<h1>배송 요청</h1>
-=======
->>>>>>> bd5a3ad24be1a7806c194a39f3b418818d164253
 <jsp:include page = "nav_mypage.jsp"/>
 <div class ="use_nav_content">
 
@@ -30,7 +24,7 @@
                 <div class="menubar">
                     <ul>
                         <a href="order.jsp">
-                            <li class ="menubar_detail" style=" background-color: white; margin: 480px 50px 50px 525px;">신청하기</li>
+                            <li class ="menubar_detail" style=" background-color: white; margin: 450px 50px 50px 525px;">신청하기</li>
                         </a>
                     </ul>
                 </div>
@@ -39,17 +33,13 @@
             <div class="menubar">
                 <ul>
                     <a href="order.jsp">
-                        <li class ="menubar_detail" style=" background-color: white; margin: 480px 50px 50px 888px;">신청하기</li>
+                        <li class ="menubar_detail" style=" background-color: white; margin: 450px 50px 50px 888px;">신청하기</li>
                     </a>
                 </ul>
             </div>
         </div>
     </div>
 </div>
-<<<<<<< HEAD
 
-=======
->>>>>>> 57755fc0c43d8b1ead1b2ea8e1c697ee34dabc87
->>>>>> bd5a3ad24be1a7806c194a39f3b418818d164253
 </body>
 </html>
