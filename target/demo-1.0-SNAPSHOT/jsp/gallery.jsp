@@ -20,7 +20,7 @@
 
 <center>
 
-<div style=" float: left; height: auto; width: auto; margin: 0px 100px 100px 0px; padding: 10px 100px 0px 100px;">
+<div style=" float: left; height: auto; width: auto; margin: 0px 100px 100px 100px; padding: 100px 100px 100px 100px;">
         <ul>
                 <a href="gallery_detail.jsp">
                         <img src="../res/BandPhoto.jpg" border = "0" width = "400" height = "300" >
@@ -45,6 +45,7 @@
 
 </div>
 </center>
+
 <footer>
         <jsp:include page="footer.jsp" />
 </footer>

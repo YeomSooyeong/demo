@@ -14,13 +14,21 @@
 </head>
 <body>
 <h1 class = "h1">주문 완료</h1>
-<div class="menubar">
-    <ul>
-        <a href="myclass_on.jsp">
-            <li class ="menubar_detail" style=" background-color: white; margin: 500px 50px 50px 1000px;">마이클래스</li>
+
+
+<section class="planeTxtBackg">
+    <p style="display: inline-block"> 주문하신 클래스는 </p>
+    <p style = "font-size: 25px; font-weight: bold; display: inline-block"> 오디세이아 오프라인 클래스 </p>
+    <p style="display: inline-block"> 입니다 </p>
+    <br>
+    <ul class="address_info_ul" >
+        <a href = "myclass_on.jsp">
+            <button class="addbutton">마이클래스로 이동</button>
         </a>
     </ul>
-</div>
+</section>
+
+
 <footer>
     <jsp:include page="footer.jsp"/>
 </footer>
