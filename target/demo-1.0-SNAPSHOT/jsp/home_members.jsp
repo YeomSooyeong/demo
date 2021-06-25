@@ -12,32 +12,21 @@
     <jsp:include page="dropDown.jsp"/>
     <title>Members</title>
     <link rel="stylesheet" href="../css/dropHome.scss">
-    <link rel="stylesheet" href="../css/sy.scss">
+    <link rel="stylesheet" href="../css/kh.css">
   </head>
     <body>
     <jsp:include page="nav_home.jsp"/>
       <div class="use_nav_content">
-        <div class="row">
-          <div class="members_column1">
-            <img src="../res/BandPhoto.jpg" border = "0" width = "200" height = "200" alt = "bandphoto">
-            <li>&nbsp</li>
-            <img src="../res/BandPhoto_2021_06_15_12_25_08.jpg" border = "0"  width = "200" height = "200" alt = "bandphoto">
-            <li>&nbsp</li>
-            </div>
-          <div class="members_column2">
-            <li>
-              Professor James Kim<br>
-              Playing Lost Ark<br>
-              Item Level 1462.5
-            </li>
-            <br>
-            <li>
-              Professor pky<br>
-              Computer Science<br>
-              Likes Starbucks
-            </li>
-          </div>
-        </div>
+      <h1 class="h1">구성원</h1>
+      <div class="planeTxt">
+        <p>체계적인 건강관리로 120세 건강장수를 추구하며, <br>
+          인문학 사랑으로 행복을 꿈꾸는 사람들의 모임을 이끄는 구성원들입니다.</p>
+          <br>
+          <br>
+      </div>
+      <div class="members_align">
+        <img style="border: 3px solid black; border-radius: 7px; -moz-border-radius: 7px; -khtml-border-radius: 7px; -webkit-border-radius: 7px; "src="../res/members.png">
+      </div>
       </div>
     </body>
   <footer>

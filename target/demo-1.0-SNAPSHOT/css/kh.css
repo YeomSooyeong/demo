@@ -16,3 +16,9 @@
     flex: 70%;
     padding: 10px;
 }
+
+
+.members_align{
+    align-content: center;
+    margin-left:10%
+}
