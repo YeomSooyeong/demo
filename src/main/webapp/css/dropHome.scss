@@ -75,29 +75,31 @@ body {
 
 .logo {
   height: 100px;
+  border-bottom: 3px solid #649d44;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .logo a {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .logo img{
-  width: 100px;
+  width: 300px;
 }
 .menus {
   position: absolute;
   top: 47px;
   margin-left: 300px;
-  padding-left: 10px;
   list-style-type: none;
   font-size: 20px;
   font-family: 'NanumSquare', sans-serif;
+  width: 70%;
 }
 .menus a {
   text-decoration: none;
 }
 .menu {
-  margin-right: 100px;
   float: left;
+  width: 20%;
+  text-align: center;
 }
 .menu:hover .menu_contents {
   display: block;
@@ -117,7 +119,7 @@ body {
   position: absolute;
   z-index: 1;
   background-color: white;
-  width: 200px;
+  width: 20%;
 }
 
 .menu_contents a {
@@ -126,15 +128,6 @@ body {
   margin: 10px 10px 15px 10px;
 }
 
-.small_btn_green {
-  width: 25%;
-  font-size: 15px;
-  padding: 10px 0;
-  cursor: pointer;
-  border: 1px solid #649d44;
-  background-color: #649d44;
-  color: white;
-}
 /* home menubar */
 .menubar {
   position: fixed;
@@ -163,6 +156,7 @@ body {
 }
 .use_nav_content {
   margin: 100px 350px;
+  padding-left: 50px;
 }
 
 /* home history */
@@ -215,6 +209,7 @@ body {
 /* Oneday Class */
 
 .oneday_head{
+  margin-top:10%;
   font-weight: bold;
   margin-left:6%
 }
@@ -227,7 +222,6 @@ body {
   background-color: inherit;
   padding: 14px 28px;
   font-size: 20px;
-  cursor: pointer;
   display: inline-block;
   text-align : center;
   line-height: 3em;
@@ -239,22 +233,22 @@ body {
 }
 
 .first {
-  float: left;
+  display:inline-block;
   width:20%;
-  margin-left: 5%;
+  margin-left: 8%;
 }
 
 .second{
-  float: left;
-  margin-left: 6%;
+  display:inline-block;
+  margin-left: 8%;
   width:20%;
 
 }
 
 .third{
-  float: left;
+  display:inline-block;
   width:20%;
-  margin-left:6%
+  margin-left:8%;
 }
 
 .proceed_to_onedayclass {
@@ -262,6 +256,24 @@ body {
 }
 .cards{
   margin-bottom: 500px;
+}
+
+.small_btn_register {
+  width: 35%;
+  font-size: 15px;
+  padding: 10px 0;
+  cursor: pointer;
+  border: 1px solid #649d44;
+  background-color: #649d44;
+  color: white;
+}
+.small_btn_nospot {
+  width: 35%;
+  font-size: 15px;
+  padding: 10px 0;
+  border: 1px solid red;
+  background-color: red;
+  color: white;
 }
 
 /* Home_members */

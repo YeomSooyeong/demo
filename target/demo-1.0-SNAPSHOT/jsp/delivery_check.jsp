@@ -15,14 +15,18 @@
 <body>
 <h1 class="h1"> 배송 완료 </h1>
 <section class="planeTxtBackg">
-    <p style="display: inline-block"> 회원님의 책 배송은 </p>
+    <p style="display: inline-block"> 회원님의 책 </p>
+    <p style = "font-size: 25px; font-weight: bold; display: inline-block"> 오디세이아 </p>
+    <p style="display: inline-block"> 는 </p>
+    <br>
+    <p style="display: inline-block"> 회원님의 주소 </p>
     <p style = "font-size: 25px; font-weight: bold; display: inline-block"> 서울특별시 강남구 대치1동 선경아파트 123동 345호 </p>
     <p style="display: inline-block"> 로 배송완료 되었습니다.</p>
     <br>
 </section>
+
+</body>
 <footer>
     <jsp:include page="footer.jsp"/>
 </footer>
-</body>
-
 </html>
