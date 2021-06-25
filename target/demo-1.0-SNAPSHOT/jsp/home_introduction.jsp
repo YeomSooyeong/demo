@@ -16,7 +16,7 @@
 <body>
 <jsp:include page="nav_home.jsp"/>
 <div class="use_nav_content">
-    <h1>소개</h1>
+    <h1 class="h3">소개</h1>
     <div class="introduction_content">
         <div class="introduction_content_txt">
             <h2> 120세 건강과 인문학 </h2>

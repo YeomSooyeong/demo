@@ -10,21 +10,19 @@
 <head>
     <title>delivery_req</title>
     <link rel="stylesheet" href="../css/ky2.scss">
+    <link rel="stylesheet" href="../css/sy.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
     <jsp:include page="nav_mypage.jsp"/>
     <div class="use_nav_content">
-
-
-        <h1 class = "h3"> 배송 신청 </h1>
-        <div style="float:left; padding: 10px 0px 0px 0px; height: 60%; width: 50%; margin: 5px 50px 50px 250px;">
+        <h1 class="h3"> 배송 신청 </h1>
+        <div class="delivery_req_box">
             <ul class="address_info_ul" >
                 <img src="../res/오디세이아.jpg"  width = "166" height = "255" alt = "photo" border="10" style="border-color: white;display: inline-block;">
                 <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
-            <img src="../res/오디세이아.jpg" width = "166" height = "255" alt= "photo" border="10" style="border-color: white;display: inline-block;" >
-            <br>
-
+                <img src="../res/오디세이아.jpg" width = "166" height = "255" alt= "photo" border="10" style="border-color: white;display: inline-block;" >
+                <br>
                 <a href = "order.jsp">
                     <button class="addbutton">신청하기</button>
                 </a>
@@ -33,10 +31,7 @@
                     <button class="addbutton">신청하기</button>
                 </a>
             </ul>
-
         </div>
-
-
     </div>
 
 </body>
