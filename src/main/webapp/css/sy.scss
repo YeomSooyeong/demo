@@ -7,7 +7,6 @@
   display: inline-block;
 }
 .introduction_content_txt {
-  width: 67%;
   padding-right: 20px;
   color: white;
   font-family: 'MaruBuri-Regular', monospace;
@@ -15,10 +14,9 @@
   line-height: 1.5;
 }
 .introduction_content_photo {
-  width: 29%;
-}
-.introduction_content_photo img {
-  width: 100%;
+  float: right;
+  width: 30%;
+  margin-left: 30px;
 }
 
 /* mypage */
