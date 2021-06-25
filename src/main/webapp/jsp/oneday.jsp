@@ -27,7 +27,7 @@
                 <div class="oneday_box first">
                     온프라인 원데이 클래스<br>
                     논어<br>
-                    6월 xx일 화요일 22:00<br>
+                    6월 25일 화요일 22:00<br>
                     <div class="proceed_to_onedayclass">
                     <a href="oneday_detail.jsp">
                         <button class="small_btn_register">신청하기</button>
@@ -37,7 +37,7 @@
                 <div class="oneday_box second">
                     온라인 원데이 클래스<br>
                     논어<br>
-                    6월 xx일 토요일 22:00<br>
+                    6월 27일 토요일 22:00<br>
                     <div class="proceed_to_onedayclass">
                     <a href="oneday_detail.jsp">
                         <button class="small_btn_nospot">신청마감</button>
@@ -47,7 +47,7 @@
                 <div class="oneday_box third">
                     오프라인 원데이클래스<br>
                     논어<br>
-                    6월 xx일 화요일 22:00<br>
+                    6월 30일 화요일 22:00<br>
                     <div class="proceed_to_onedayclass">
                     <a href="oneday_detail.jsp">
                         <button class="small_btn_register">신청하기</button>
