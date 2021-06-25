@@ -16,12 +16,23 @@
 <jsp:include page = "nav_mypage.jsp"/>
 <div class ="use_nav_content">
     <h1 class = "h1">구독 정보</h1>
-    <div style = "background-color: gray; opacity: 0.65; weight: 60%; height: 40%; margin: 13px 10px 30px 100px;">
-        <p> [수강중] </p>
-    </div>
-    <div style = "background-color: gray; opacity: 0.65; weight: 60%; height: 40%; margin: 13px 10px 30px 100px;">
-        <p>[입금확인중]</p>
-    </div>
+    <section class="planeTxtBackg">
+        <p style = "font-size: 25px; font-weight: bold; display: inline-block"> [수강중] </p>
+        <br>
+        <p style="display: inline-block"> 오디세이아 오프라인 클래스 </p>
+        <br>
+    </section>
+
+    <section class="planeTxtBackg">
+        <p style = "font-size: 25px; font-weight: bold; display: inline-block"> [입금확인중] </p>
+        <br>
+        <p style="display: inline-block"> 없습니다 </p>
+        <br>
+    </section>
+
 </div>
+<footer>
+    <jsp:include page="footer.jsp"/>
+</footer>
 </body>
 </html>

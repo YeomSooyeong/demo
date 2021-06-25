@@ -13,8 +13,8 @@
 </head>
 <body>
 
-<jsp:include page = "nav_mypage.jsp"/>
-<div class ="use_nav_content">
+    <jsp:include page="nav_mypage.jsp"/>
+    <div class="use_nav_content">
 
     <div style=" float: right; background-color:#2b2b2b; opacity: 0.65; height: 60%; width: 90%; margin: 0px 50px 50px 700px; ">
         <div style="float:left; color:#ffffff; padding: 0px 0px 20px 20px; margin: 0px 50px 50px 20px; font-size:60px; font-weight:bold;"> 배송 신청 </div>
@@ -40,6 +40,8 @@
         </div>
     </div>
 </div>
-
+<footer>
+    <jsp:include page="footer.jsp"/>
+</footer>
 </body>
 </html>
