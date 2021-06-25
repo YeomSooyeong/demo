@@ -13,14 +13,24 @@
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-<h1 class = "h1">주문 정보</h1>
-<div class="menubar">
-    <ul>
-        <a href="order_check.jsp">
-            <li class ="menubar_detail" style=" background-color: white; margin: 500px 50px 50px 1000px;">주문완료</li>
-        </a>
-    </ul>
-</div>
+<h3 class="h1">주문 정보 확인</h3>
+
+    <section class="planeTxtBackg">
+        <p style="display: inline-block"> 주문하신 클래스는 </p>
+        <p style = "font-size: 25px; font-weight: bold; display: inline-block"> 오디세이아 오프라인 클래스 </p>
+        <p style="display: inline-block"> 입니다 </p>
+        <br>
+        <ul class="address_info_ul" >
+            <a href = "order.jsp">
+                <button class="addbutton">변경하기</button>
+            </a>
+            <a href = "order_check.jsp">
+                <button class="addbutton">계속하기</button>
+            </a>
+        </ul>
+    </section>
+
+
 <footer>
     <jsp:include page="footer.jsp"/>
 </footer>
