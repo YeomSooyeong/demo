@@ -13,8 +13,6 @@
         <link rel="stylesheet" href="../css/dropHome.scss">
     </head>
     <body>
-    <jsp:include page="nav_home.jsp"/>
-    <div class="use_nav_content">
         <h1 class="h1">원데이 클래스</h1>
 
         <section class="cards">
@@ -25,7 +23,7 @@
                     6월 25일 목요일 22:00<br>
                     <div class="proceed_to_onedayclass">
                     <a href="oneday_detail.jsp">
-                        <button class="small_btn_green">신청</button>
+                        <button class="small_btn_register">신청하기</button>
                     </a>
                     </div>
                 </div>
@@ -35,7 +33,7 @@
                 6월 27일 토요일 22:00<br>
                     <div class="proceed_to_onedayclass">
                     <a href="oneday_detail.jsp">
-                        <button class="small_btn_green">신청</button>
+                        <button class="small_btn_nospot">신청마감</button>
                     </a>
                     </div>
                 </div>
@@ -45,19 +43,19 @@
                 6월 30일 화요일 22:00<br>
                 <div class="proceed_to_onedayclass">
                     <a href="oneday_detail.jsp">
-                        <button class="small_btn_green">신청</button>
+                        <button class="small_btn_register">신청하기</button>
                     </a>
                 </div>
             </div>
 
-            <h2 class="oneday_head">7월의 원데이 클래스</h2>
+            <h1 class="oneday_head">7월의 원데이 클래스</h1>
             <div class="oneday_box first">
                 오프라인 원데이클래스<br>
                 논어<br>
                 7월 25일 화요일<br>
                 <div class="proceed_to_onedayclass">
                     <a href="oneday_detail.jsp">
-                        <button class="small_btn_green">신청</button>
+                        <button class="small_btn_register">신청하기</button>
                     </a>
                 </div>
             </div>
@@ -67,7 +65,7 @@
                 7월 27일 목요일<br>
                 <div class="proceed_to_onedayclass">
                     <a href="oneday_detail.jsp">
-                        <button class="small_btn_green">신청</button>
+                        <button class="small_btn_register">신청하기</button>
                     </a>
                 </div>
             </div>
@@ -77,12 +75,11 @@
                 7월 30일 화요일 22:00<br>
                 <div class="proceed_to_onedayclass">
                     <a href="oneday_detail.jsp">
-                        <button class="small_btn_green">신청</button>
+                        <button class="small_btn_register">신청하기</button>
                     </a>
                 </div>
             </div>
         </section>
-    </div>
 
     </body>
     <footer>
