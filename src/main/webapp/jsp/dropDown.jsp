@@ -11,7 +11,7 @@
 <body>
 <!-- logo -->
 <div class="logo">
-  <a href="home.jsp"><img src="../res/Animation.gif"></a>
+  <a href="home.jsp"><img src="../res/Animation2.gif"></a>
 </div>
 <!-- logo -->
 <!-- menu -->
