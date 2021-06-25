@@ -20,7 +20,7 @@
 
 
 
-<div style=" float: left; height: auto; width: auto; margin: 0px 100px 100px 100px; padding: 100px 100px 100px 100px;">
+<div style="text-align:center; height: auto; width: auto; margin: 0px 100px 100px 100px; padding: 100px 100px 100px 100px;">
         <ul>
                 <a href="gallery_detail.jsp" style="text-decoration: none">
                         <img src="../res/BandPhoto.jpg" border = "0" width = "400" height = "300" >
