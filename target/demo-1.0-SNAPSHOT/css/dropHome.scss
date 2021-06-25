@@ -128,15 +128,6 @@ body {
   margin: 10px 10px 15px 10px;
 }
 
-.small_btn_green {
-  width: 25%;
-  font-size: 15px;
-  padding: 10px 0;
-  cursor: pointer;
-  border: 1px solid #649d44;
-  background-color: #649d44;
-  color: white;
-}
 /* home menubar */
 .menubar {
   position: fixed;
@@ -165,6 +156,7 @@ body {
 }
 .use_nav_content {
   margin: 100px 350px;
+  padding-left: 50px;
 }
 
 /* home history */
@@ -217,6 +209,7 @@ body {
 /* Oneday Class */
 
 .oneday_head{
+  margin-top:10%;
   font-weight: bold;
   margin-left:6%
 }
@@ -229,7 +222,6 @@ body {
   background-color: inherit;
   padding: 14px 28px;
   font-size: 20px;
-  cursor: pointer;
   display: inline-block;
   text-align : center;
   line-height: 3em;
@@ -241,22 +233,22 @@ body {
 }
 
 .first {
-  float: left;
+  display:inline-block;
   width:20%;
-  margin-left: 5%;
+  margin-left: 8%;
 }
 
 .second{
-  float: left;
-  margin-left: 10%;
+  display:inline-block;
+  margin-left: 8%;
   width:20%;
 
 }
 
 .third{
-  float: right;
+  display:inline-block;
   width:20%;
-  margin-left:10%
+  margin-left:8%;
 }
 
 .proceed_to_onedayclass {
@@ -264,6 +256,24 @@ body {
 }
 .cards{
   margin-bottom: 500px;
+}
+
+.small_btn_register {
+  width: 35%;
+  font-size: 15px;
+  padding: 10px 0;
+  cursor: pointer;
+  border: 1px solid #649d44;
+  background-color: #649d44;
+  color: white;
+}
+.small_btn_nospot {
+  width: 35%;
+  font-size: 15px;
+  padding: 10px 0;
+  border: 1px solid red;
+  background-color: red;
+  color: white;
 }
 
 /* Home_members */
