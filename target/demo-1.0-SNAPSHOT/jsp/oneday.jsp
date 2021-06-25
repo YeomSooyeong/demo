@@ -13,25 +13,76 @@
         <link rel="stylesheet" href="../css/dropHome.scss">
     </head>
     <body>
+    <jsp:include page="nav_home.jsp"/>
+    <div class="use_nav_content">
         <h1 class="h1">원데이 클래스</h1>
 
-        <section class="cards" style="margin-bottom: 500px;">
-                <button class="oneday_btn first">
+        <section class="cards">
+            <h1 class="oneday_head">6월의 원데이 클래스</h1>
+                <div class="oneday_box first">
                     Offline Oneday CLass<br>
                     6/25 Thur 22:00<br>
-                    10 spots left
-                </button>
-                <button class="oneday_btn second">
-                    Offline Oneday CLass<br>
-                    6/27 Sat 22:00<br>
-                    10 spots left
-                </button>
-                <button class="oneday_btn third">
-                    Online Oneday CLass<br>
-                    6/29 Tue 22:00<br>
-                    10 spots left
-                </button>
+                    10 spots left<br>
+                    <div class="proceed_to_onedayclass">
+                    <a href="oneday_detail.jsp">
+                        <button class="small_btn_green">신청</button>
+                    </a>
+                    </div>
+                </div>
+                <div class="oneday_box second">
+                Offline Oneday CLass<br>
+                6/27 Sat 22:00<br>
+                10 spots left<br>
+                    <div class="proceed_to_onedayclass">
+                    <a href="oneday_detail.jsp">
+                        <button class="small_btn_green">신청</button>
+                    </a>
+                    </div>
+                </div>
+            <div class="oneday_box third">
+                Offline Oneday CLass<br>
+                6/30 Tue 22:00<br>
+                10 spots left<br>
+                <div class="proceed_to_onedayclass">
+                    <a href="oneday_detail.jsp">
+                        <button class="small_btn_green">신청</button>
+                    </a>
+                </div>
+            </div>
+
+            <h2 class="oneday_head">7월의 원데이 클래스</h2>
+            <div class="oneday_box first">
+                Offline Oneday CLass<br>
+                7/25 Thur 22:00<br>
+                10 spots left<br>
+                <div class="proceed_to_onedayclass">
+                    <a href="oneday_detail.jsp">
+                        <button class="small_btn_green">신청</button>
+                    </a>
+                </div>
+            </div>
+            <div class="oneday_box second">
+                Offline Oneday CLass<br>
+                7/27 Sat 22:00<br>
+                10 spots left<br>
+                <div class="proceed_to_onedayclass">
+                    <a href="oneday_detail.jsp">
+                        <button class="small_btn_green">신청</button>
+                    </a>
+                </div>
+            </div>
+            <div class="oneday_box third">
+                Offline Oneday CLass<br>
+                7/30 Tue 22:00<br>
+                10 spots left<br>
+                <div class="proceed_to_onedayclass">
+                    <a href="oneday_detail.jsp">
+                        <button class="small_btn_green">신청</button>
+                    </a>
+                </div>
+            </div>
         </section>
+    </div>
 
     </body>
     <footer>
