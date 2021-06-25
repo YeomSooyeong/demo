@@ -8,14 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>oneday_detail</title>
+    <title>myclass_rec</title>
     <jsp:include page="dropDown.jsp"/>
-    <jsp:include page="nav_home.jsp"/>
 </head>
 <body>
-<h1>원데이클래스 상세</h1>
+<h1>마이클래스 녹화</h1>
 </body>
-<footer>
-    <jsp:include page="footer.jsp"/>
-</footer>
 </html>
