@@ -13,14 +13,19 @@
     <jsp:include page="dropDown.jsp"/>
 </head>
 <body>
-    <h1> 내 정보 </h1>
-    <section class="info" style="width: 40%">
-        <ul>
-            <li>
-                <dt>이름</dt>
-                <dd>박근령</dd>
-            </li>
-        </ul>
-    </section>
+    <jsp:include page="nav_mypage.jsp"/>
+    <div class="use_nav_content">
+        <section class="info" style="width: 40%">
+            <ul>
+                <li>
+                    <dt>이름</dt>
+                    <dd>박근령</dd>
+                </li>
+            </ul>
+        </section>
+    </div>
 </body>
+<footer>
+    <jsp:include page="footer.jsp" />
+</footer>
 </html>
