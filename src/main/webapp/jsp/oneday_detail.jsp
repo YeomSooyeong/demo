@@ -10,9 +10,15 @@
 <head>
     <title>oneday_detail</title>
     <jsp:include page="dropDown.jsp"/>
+    <jsp:include page="nav_home.jsp"/>
 </head>
 <body>
 <h1>원데이클래스 상세</h1>
+<div class="ondeay_detail">
+    <table>
+
+    </table>
+</div>
 </body>
 <footer>
     <jsp:include page="footer.jsp"/>

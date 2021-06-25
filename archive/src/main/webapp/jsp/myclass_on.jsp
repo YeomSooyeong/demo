@@ -1,21 +1,19 @@
 <%--
   Created by IntelliJ IDEA.
-  User: krgop
-  Date: 2021-06-21 021
-  Time: 21:48
+  User: pky31
+  Date: 2021-06-21
+  Time: 23:36
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>oneday_detail</title>
+    <title>myclass_on</title>
+    <link rel="stylesheet" href="../css/dropHome.scss">
     <jsp:include page="dropDown.jsp"/>
-    <jsp:include page="nav_home.jsp"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<h1>원데이클래스 상세</h1>
+    <h1> 마이클래스 </h1>
 </body>
-<footer>
-    <jsp:include page="footer.jsp"/>
-</footer>
 </html>

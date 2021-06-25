@@ -11,14 +11,13 @@
     <title>home_contact</title>
     <link rel="stylesheet" href="../css/sy.scss">
     <link rel="stylesheet" href="../css/dropHome.scss">
+    <link rel="stylesheet" href="../css/home_contact.scss">
     <jsp:include page="dropDown.jsp"/>
+    <jsp:include page="nav_home.jsp"/>
 </head>
 <body>
-<jsp:include page="nav_home.jsp"/>
 <div class="use_nav_content">
-
-
-<div id="map">
+<div id="map"></div>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=60d7e79be1f221abb281f7b09bde9bb6"></script>
 <script>
     var container = document.getElementById('map');
@@ -43,7 +42,7 @@
     })
 
     infowindow.open(map, marker);
-</script></div>
+</script>
 </div>
 </body>
 <footer>
