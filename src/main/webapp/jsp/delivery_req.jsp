@@ -23,11 +23,11 @@
                 <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
                 <img src="../res/오디세이아.jpg" width = "166" height = "255" alt= "photo" border="10" style="border-color: white;display: inline-block;" >
                 <br>
-                <a href = "order.jsp">
+                <a href = "delivery_add.jsp">
                     <button class="addbutton">신청하기</button>
                 </a>
                 <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
-                <a href = "order.jsp">
+                <a href = "delivery_add.jsp">
                     <button class="addbutton">신청하기</button>
                 </a>
             </ul>
