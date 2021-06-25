@@ -11,7 +11,7 @@
 <body>
 <!-- logo -->
 <div class="logo">
-  <a href="home.jsp"><img src="../res/Animation.gif"></a>
+  <a href="home.jsp"><img src="../res/Animation2.gif"></a>
 </div>
 <!-- logo -->
 <!-- menu -->
@@ -21,6 +21,7 @@
     <div class="menu_contents">
       <a href="home_introduction.jsp">소개</a>
       <a href="home_history.jsp">연혁</a>
+      <a href="home_members.jsp">구성원</a>
       <a href="home_contact.jsp">찾아오시는 길</a>
     </div>
   </li>

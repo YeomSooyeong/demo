@@ -75,29 +75,35 @@ body {
 
 .logo {
   height: 100px;
+  border-bottom: 3px solid #649d44;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .logo a {
+<<<<<<< HEAD
   margin-left: 30px;
+=======
+  margin-left: 20px;
+>>>>>>> 30e82d760385cb96bac7a1b4afcf57ab269d9af4
 }
 .logo img{
-  width: 100px;
+  width: 300px;
 }
 .menus {
   position: absolute;
   top: 47px;
-  margin-left: 300px;
-  padding-left: 10px;
+  margin-left: 200px;
   list-style-type: none;
   font-size: 20px;
   font-family: 'NanumSquare', sans-serif;
+  width: 80%;
 }
 .menus a {
   text-decoration: none;
 }
 .menu {
-  margin-right: 100px;
   float: left;
+  width: 20%;
+  text-align: center;
 }
 .menu:hover .menu_contents {
   display: block;
@@ -117,7 +123,7 @@ body {
   position: absolute;
   z-index: 1;
   background-color: white;
-  width: 200px;
+  width: 20%;
 }
 
 .menu_contents a {
@@ -246,15 +252,15 @@ body {
 
 .second{
   float: left;
-  margin-left: 6%;
+  margin-left: 10%;
   width:20%;
 
 }
 
 .third{
-  float: left;
+  float: right;
   width:20%;
-  margin-left:6%
+  margin-left:10%
 }
 
 .proceed_to_onedayclass {
