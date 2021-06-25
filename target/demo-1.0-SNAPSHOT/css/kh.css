@@ -1,0 +1,18 @@
+{
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+
+.members_column1 {
+    flex: 30%;
+    padding: 10px;
+}
+.members_column2 {
+    line-height: 3em;
+    flex: 70%;
+    padding: 10px;
+}
