@@ -168,8 +168,16 @@ body {
   color: white;
 }
 .use_nav_content {
-  margin: 100px 350px;
+  margin: 100px 10px 0 350px
 }
+.ul{
+  list-style:none;
+  padding: 0;
+}
+.ul li dd{
+  margin: 0;
+}
+
 
 /* home_history */
 
@@ -218,7 +226,7 @@ table {
 }
 .history div:first-child:before {
   top: 10px;
-  height: clac(100%-10px);
+  height: calc(100% - 10px);
 }
 .history ol {
   padding: 20px 0 74px;
@@ -375,3 +383,4 @@ table {
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
+

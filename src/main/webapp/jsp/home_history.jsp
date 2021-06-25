@@ -10,7 +10,8 @@
 <body>
 <jsp:include page="nav_home.jsp"/>
 <div class="use_nav_content">
-    <div class="history">
+    <div class="history_wrapper">
+    <div class="history history_history">
         <div>
             <h2>2017년</h2>
             <ol>
@@ -31,6 +32,10 @@
                 <li>12월 첫 인문학 콘서트</li>
             </ol>
         </div>
+    </div>
+    <div class="history history_logo">
+        <img src="../res/Animation.gif" border = "0"  width = "400" height = "300">
+    </div>
     </div>
 </div>
 </body>

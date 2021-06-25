@@ -155,16 +155,31 @@ body {
   color: white;
 }
 .use_nav_content {
-  margin: 100px 350px;
+  margin: 100px 50px 0 350px;
   padding-left: 50px;
 }
 
 /* home history */
-
-
+.history_wrapper{
+  display:flex;
+}
+.history{
+  flex-grow:1;
+  width: 40%;
+  display: inline-block;
+}
+.history_history{
+  margin-left: 7%;
+}
+.history_logo{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 .history h2 {
   position: relative;
-  font-size: 32px;
+  width: 50%;
+  font-size: 20px;
   color: #000;
   line-height: 1;
 }
@@ -184,6 +199,7 @@ body {
   position: relative;
   padding: 0 0 0 40px;
 }
+
 .history div::before {
   content: "";
   position: absolute;
@@ -194,7 +210,7 @@ body {
 }
 .history div:first-child:before {
   top: 10px;
-  height: clac(100%-10px);
+  height: calc(100% - 10px);
 }
 .history ol {
   padding: 20px 0 74px;
@@ -327,4 +343,12 @@ body {
 }
 .gallery_photo{
 
+}
+
+.h3{
+  font-family: 'MaruBuri-Regular', monospace;
+  margin-top: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
 }
