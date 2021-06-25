@@ -18,6 +18,7 @@
 </head>
 <body>
 <div class="use_nav_content">
+    <h1 class="h1">오시는 길</h1>
     <div id="map"></div>
     <div class="map_detail">
         <div class="map_detail_head">
@@ -38,8 +39,7 @@
         <div class="map_detail_head">
             <p class="planeTxt">참고사항</p></div>
         <div class="map_detail_info">
-            <p class="planeTxt">1층 고급 커피점<br>
-                                지하주차장 및 유료주차장</p></div>
+            <p class="planeTxt">1층 고급 커피점, 지하주차장 및 유료주차장</p></div>
     </div>
     <script type="text/javascript"
             src="//dapi.kakao.com/v2/maps/sdk.js?appkey=60d7e79be1f221abb281f7b09bde9bb6"></script>
