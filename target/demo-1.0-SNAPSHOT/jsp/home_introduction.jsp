@@ -10,6 +10,7 @@
 <head>
     <title>home_introduction</title>
     <link rel="stylesheet" href="../css/sy.scss">
+    <link rel="stylesheet" href="../css/ky2.scss">
     <link rel="stylesheet" href="../css/dropHome.scss">
     <jsp:include page="dropDown.jsp"/>
 </head>
