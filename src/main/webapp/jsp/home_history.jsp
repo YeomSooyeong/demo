@@ -11,7 +11,7 @@
 <jsp:include page="nav_home.jsp"/>
 <div class="use_nav_content">
     <div class="history_wrapper">
-    <div class="history">
+    <div class="history history_history">
         <div>
             <h2>2017년</h2>
             <ol>

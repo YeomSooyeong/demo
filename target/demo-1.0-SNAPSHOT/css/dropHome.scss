@@ -164,10 +164,12 @@ body {
   display:flex;
 }
 .history{
-  justify-content: center;
   flex-grow:1;
   width: 40%;
   display: inline-block;
+}
+.history_history{
+  margin-left: 7%;
 }
 .history_logo{
   display:flex;
