@@ -17,7 +17,7 @@
 <jsp:include page = "nav_mypage.jsp"/>
 <div class ="use_nav_content">
 
-    <h1 class = "h1">구독 정보</h1>
+    <h1 class = "h3">구독 정보</h1>
     <section class="planeTxtBackg">
         <p style="display: inline-block"> 온라인 : [수강중]</p><span>&nbsp</span> <p style="display: inline-block">오프라인 : [미등록] </p><br>
         <p style = "font-size: 25px; font-weight: bold; display: inline-block"> 온라인 클래스 : 오디세이아 </p>
