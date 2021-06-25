@@ -12,12 +12,24 @@
     <link rel="stylesheet" href="../css/dropHome.scss">
     <link rel="stylesheet" href="../css/ky2.scss">
     <jsp:include page="dropDown.jsp"/>
+    <style>
+        a { text-decoration: none; color: black; }
+        a:visited { text-decoration: none; }
+        a:hover { text-decoration: none; }
+        a:focus { text-decoration: none; }
+        a:hover, a:active { text-decoration: none; }
+    </style>
+
+
+
+
+
 </head>
 <body>
-<h1 class = "h1" style = "margin-left: 5%">구독</h1>
+<br>
 <section class="cards">
     <a href = "order.jsp">
-        <div class="oneday_box first" style = "margin-left: 28% ">
+        <div class="oneday_box first" style = "margin-left: 23% ; margin-bottom: 10%; width:25%;">
             오프라인 클래스<br>
             <p style = "font-size: 25px; font-weight: bold; display: inline-block">30만원</p>/6개월<br>
             <ul style = "list-style-type: '\1F44D'; ">
@@ -30,7 +42,7 @@
     </a>
     </div>
     <a href = "order.jsp">
-        <div class="oneday_box second" style = "margin-left: 8%">
+        <div class="oneday_box second" style = "margin-left: 8%; margin-bottom: 10%; width:25%;">
             온라인 클래스<br>
             <p style = "font-size: 25px; font-weight: bold; display: inline-block">20만원</p>/년<br>
             <ul style = "list-style-type: '\1F44D'; ">
